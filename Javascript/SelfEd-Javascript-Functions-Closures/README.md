@@ -1,4 +1,3 @@
-
 #**SelfEd - Javascript - Function Closures**#
 **SelfEd**          |  **Info** 
 ------------------- | ------------------------------------------------------------------------
@@ -21,7 +20,6 @@ Process:
 
 Run the HTML file in a browser or in Plunker.
 - [Click this for Plunker](https://plnkr.co/edit/vaAyx2nm6eVaW3rhJUy5?p=preview)
-The code is best viewed Plunker is even better by clicking here.
-###**Note:**  
-This SelfEd on function closures are simple. Please refer to the
-SelfEd references for more depth on the subject. 
+The code is best viewed in Plunker.                                                            
+**Note:**This SelfEd on function closures are simple. Please refer to the
+SelfEd references (links) for more depth on the subject. 
