@@ -1,17 +1,3 @@
-# SelfEd Tutorials Javascript
+# SelfEd Tutorials Javascript - Quick To Use Guide
 
-## Myself and my quest 
-I'm 'new' to web development if you consider 3.5+ years as new (I do). My journey started as a desire to stay in tech. I have an engineering background and was not using my engineering disciplines to my satisfaction. After earning a BS in Electrical Engineering (with honors) I started a small business based on a couple of patents I was granted. The business struggled after the great recession of 2008 and eventually I closed it. I resurrected it under a different name and decided to code the website for it myself. This so I could learn web development. Within weeks I was hooked on learning and writing code. I'm no stranger to code but mostly it was closer to the machine level. I had written a lot of machine UI in C. I quickly realized being a web developer is a nice place.
 
-After learning the basics: HTML, CSS, and Javascript I began branching out into jQuery, PHP, AJAX, SQL, JSON, etc. to accomplish my website goals. Mission accomplished as I've written a functional e-commerce website which I use for my small mail order business. 
-
-However, much of what I learned is now a foundation and not used front and center. It's the frameworks atop this foundation that are front and center now. So like an early settler heading west I've kept moving into new territory until I finally felt I found a place to stake a claim. That place is **MEAN Stack** with emphasis on **AngularJS**. Of course there's **NodeJS** and **Express**. These are all the components that make up **Fullstack Javascript** and of course **MongoDB** is simply a NoSQL alternative to MySQL. I believe Javascript will become the defacto language for full stack web development because it's probably the most browser friendly language there is and growing numbers of applications are using browsers as UIs.
-
-## About the SelfEd tutorials
-I've recently taken a few college courses to add to my development skills but most of the material is not offered and is free anyway online. There are countless tutorials to learn web development. Alas, I never finish most tutorials without running into a snag along the way. I always blame myself for not understanding something. But I also know that many tutorials are written by seasoned developers who inadvertently leave out little nuances that can hang up a newbie (like me). When that happens I begin what I call a **SelfEd**. SelfEds are tutorials I write for myself. They read like a diary as I often document my progress along the way. I search the internet for Q&As and tutorials to help me resolve that which I do not understand. I do like learning at the **"nand gate"** level which means I like very simple examples. By the way, the entire logic architecture in a modern computer is made with simple **nand gates**, complex but not complicated. I build and by knowing basic building blocks I serve up caliber projects.  
-
-## SelfEds are evolving tutorials
-As of Feb 2017 I decided to place my SelfEds in repositories on Github. These SelfEds are far from mature and far from having an optimal presentation. But since I will go pro and become part of something bigger, I need to show the wares I have.. I will continue to work on these SelfEds, add new ones, and eventually have a unique tutorial format that will become an additional resource for developers. 
-
-## SelfEd Repositories listed by language
-There is a repository for each language I've delved into. I only write SelfEds for those code subjects I have trouble understanding. This as I go through the learning process. The SelfEd titles are meant to be explanatory so you can tell if it might address your question.  
