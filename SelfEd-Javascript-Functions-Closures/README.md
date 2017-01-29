@@ -8,7 +8,7 @@
 **Catalyst:**       | While learning **MEAN** Stack disciplines I encountered the issue of function closure. 
 
 
-**References:**       | **Link**
+**References:**       | **Sites visited to learn and apply to this SelfEd**
 ----------------------|-----------------------
 1                     | http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/
 2                     | http://edumaven.com/javascript-programming/passing-function-as-parameter
