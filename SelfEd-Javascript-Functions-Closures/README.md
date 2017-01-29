@@ -18,7 +18,9 @@
 
 Process:
 
-Run the HTML file in a browser or in Plunker.
+Load this SeflEd in a broswer for the instructional reading of it. 
+(or)
+Use the Plunker link below (preferred).
+
 - **[View This SelfEd in Plunker](https://plnkr.co/edit/vaAyx2nm6eVaW3rhJUy5?p=preview)**
-The code is best viewed in Plunker.                                                            
-**Note:** This SelfEd on function closures is simple. Please refer to the sites I visited (links above) for more depth on the subject. 
+ **Note:** This SelfEd on function closures is simple. Please refer to the sites I visited (links above) for more depth on the subject. 
