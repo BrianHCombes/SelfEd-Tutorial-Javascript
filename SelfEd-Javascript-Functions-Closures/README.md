@@ -18,9 +18,9 @@
 
 Process:
 
-Load this SeflEd in a broswer for the instructional reading of it. 
-(or)
-Use the Plunker link below (preferred).
+Load this SeflEd in a broswer for the instructional reading of it.     
+(or)    
+Use the Plunker link below (preferred).    
 
-- **[View This SelfEd in Plunker](https://plnkr.co/edit/vaAyx2nm6eVaW3rhJUy5?p=preview)**
+- **[View This SelfEd in Plunker](https://plnkr.co/edit/vaAyx2nm6eVaW3rhJUy5?p=preview)**    
  **Note:** This SelfEd on function closures is simple. Please refer to the sites I visited (links above) for more depth on the subject. 
