@@ -5,16 +5,25 @@
                     | 01/27/2017 (Update)
 **Archive_Title:**  | SelfEd-Javascript-Functions-Asynchronous-Calls
 **Objective:**      | To better understand asynchronous functions (calls) to better understand things like 'promises'
-**Catalyst:**       | Was reviewing node.js, namely these references: **[{ nodeJS callbacks }](https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm)   [{ SelEd-Javascript-Functions-Closures }](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures)   [{ SelfEd-NodeJS-Server-Creating-Of-B }]()** and still felt unsatisfied about the underlying mechanism that makes a function asynchronous. Explanations seemed lacking and examples seemed overly complex. But I have a hunch and am developing that hunch in this SelfEd.
+**Catalyst:**       | Was reviewing node.js, namely these references: **[{ nodeJS callbacks }](https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm)   [{ SelEd-Javascript-Functions-Closures }](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures)   [{ SelfEd-NodeJS-Server-Creating-Of-B }]()** and still felt unsatisfied about the underlying mechanism that makes a function asynchronous. Explanations seemed lacking and examples seemed overly complicated. But I have a hunch and am developing that hunch in this SelfEd.
 
 
 **References:**       | **Sites visited to learn and apply to this SelfEd**
 ----------------------|-----------------------
-1                     | http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/
-2                     | http://edumaven.com/javascript-programming/passing-function-as-parameter
-3                     | http://javascriptissexy.com/understand-javascript-closures-with-ease/
-4                     | https://www.smashingmagazine.com/2014/07/dont-be-scared-of-functional-programming/
-5                     | http://recurial.com/programming/understanding-callback-functions-in-javascript/
+                      |  Primary tutorial credit goes to: **Christopher Buecheler**. His tutorial that helped me the most is here:   http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
+                    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function
+                    https://blog.ometer.com/2011/07/24/callbacks-synchronous-and-asynchronous/
+                    http://callbackhell.com/ (Lots of good explanation in this one)
+                    http://esbueno.noahstokes.com/post/77292606977/self-executing-anonymous-functions-or-how-to-write
+
+
+                    http://stackoverflow.com/questions/6921895/synchronous-delay-in-code-execution
+                    http://esbueno.noahstokes.com/post/77292606977/self-executing-anonymous-functions-or-how-to-write
+                    https://www.impressivewebs.com/callback-functions-javascript/
+                    http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
+                    http://softwareengineering.stackexchange.com/questions/194580/how-does-javascript-code-become-asynchronous-when-using-callbacks
+
+
 
 Process:
 
@@ -36,7 +45,7 @@ Use the Plunker link below (preferred).
       SelfEd Objective:   To better understand asynchronous functions (calls) to better
                           understand things like 'promises'
 
-SelfEd Catalyst:    Was reviewing node.js, namely these references:
+      SelfEd Catalyst:    Was reviewing node.js, namely these references:
                     
                     https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm
                     SelEd-Javascript-Functions-Closures
