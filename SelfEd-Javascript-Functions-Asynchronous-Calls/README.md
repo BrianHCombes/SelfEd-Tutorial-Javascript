@@ -57,7 +57,7 @@ Process:
       **http://softwareengineering.stackexchange.com/questions/194580/how-does-javascript-code-become-asynchronous-when-using-callbacks**
 
   - 01/06/2017   
-    This is a return visit. I'm working on a practice AngularJS project: **_SelfEd-Angular-Practice-ProjectA-HTTP-Service_** See **_Code section AAA_** in file: **_Client-Server_Exp4.html_** I have a working **_RESTful_** call ($http.get) in file: **_Client-Server_Exp3.html_** and have a problem where I'm receiving an empty object from a RESTful service, namely **_$http.get_**. I suspect the behavior is because the code is not behaving asynchronously. It's supposed to wait for the **_$http.get_** server call to return something. I think it's blazing right past the server call. This has lead me to the **_.then()_** method and promises. These objects    are Javascript objects and don't seem exclusive to Angular. Yeah!
+    This is a return visit. I'm working on a practice AngularJS project: **_SelfEd-Angular-Practice-ProjectA-HTTP-Service_** See **_Code section AAA_** in practice project file: **_Client-Server_Exp4.html_** I have a working **_RESTful_** call ($http.get) in the practice project file: **_Client-Server_Exp3.html_** and have a problem where I'm receiving an empty object from a RESTful service, namely **_$http.get_**. I suspect the behavior is because the code is not behaving asynchronously. It's supposed to wait for the **_$http.get_** server call to return something. I think it's blazing right past the server call. This has lead me to the **_.then()_** method and promises. These objects    are Javascript objects and don't seem exclusive to Angular. Yeah!
     
     Going to the **_Promise_** links below looks like good reading.
 
@@ -73,5 +73,5 @@ Process:
   - 01/11/2017        
     I think I have a little more understanding of asynchronous functions. Refer to file: **_callback_Exp2.html_** of which I've done more work on. The setTimeout function is used for the asynchronous behavior. As it turns out, all functions outside the setTimeout function are executed right away. The setTimeout function and all functions within the setTimeout function are executed after the time out completes. It seems kinda obvious now. Load the page to see what's up.
 
-    ###But last and maybe the most important thing!!!!!!!!!!!!!!!!!!!!!!!!!!!!###   
+    ###But last and maybe the most important thing!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
     Asynchronous behavior appears exclusive to system or query level calls. setTimeout() is a call to the system. A query is a call to a server, etc. These are things outside of the javascript sandbox.
