@@ -1,4 +1,5 @@
-Citing     |  Author
------------|---------------
-CiteAAA    | Joe Blow Joe BlowJoe BlowJoe BlowJoe Blow Joe Blow Joe BlowJoe Blow Joe Blow Joe dafgadfgsdfgsdfgsdfgdfgBlowJoe BlowJoe Blow Joe BlowJoe Blow Joe Blow
-CiteBBB    | Joe Blow Joe BlowJoe BlowJoe BlowJoe Blow Joe Blow Joe BlowJoe Blow Joe Blow Joe BlowJoe BlowJoe Blow Joe BlowJoe Blow Joe Blow
+# References Cited in SelfEds
+
+Citation Ref     |Author                  |Date             |Title            |Retrieved From
+-----------------|------------------------|-----------------|----------------------------------|-------------------------------
+AAA              |Buecheler, Christopher  |                 |UNDERSTANDING JAVASCRIPT CALLBACKS|http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
