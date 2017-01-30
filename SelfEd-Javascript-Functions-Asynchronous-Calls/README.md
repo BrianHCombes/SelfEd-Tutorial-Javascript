@@ -26,7 +26,7 @@
 
 Process:
 
-    First Approach: call setTimeout() functions within defined functions
+  - First Approach: call setTimeout() functions within defined functions
 
     I decided to set up three functions called time1, time2, time3. I installed
     the setTimeout() function in each one. I set them to 1000, 2000, 3000
@@ -37,8 +37,8 @@ Process:
     Amazingly one web page I found lays out an experiment very much like to my 
     approach. It is:
 
-                    http://www.hiddenwebgenius.com/blog/guides/understanding-javascripts-asynchronous-code/
-                    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function
+    http://www.hiddenwebgenius.com/blog/guides/understanding-javascripts-asynchronous-code/
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function
 
     12/3/2016 Note: My quest for asynchronous javascript without the help of NodeJS is not complete.            
 
