@@ -5,7 +5,7 @@
                     | 01/27/2017 (Update)
 **Archive_Title:**  | SelfEd-Javascript-Functions-Asynchronous-Calls
 **Objective:**      | To better understand asynchronous functions (calls) to better understand things like 'promises'
-**Catalyst:**       | Was reviewing node.js, namely these references: **[{ nodeJS callbacks }](https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm)   [{ SelEd-Javascript-Functions-Closures }](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures)   [{ SelfEd-NodeJS-Server-Creating-Of-B }]()** and still felt unsatisfied about the underlying mechanism that makes a function asynchronous. Explanations seemed lacking and examples seemed overly complicated. But I have a hunch and am developing that hunch in this SelfEd.
+**Catalyst:**       | Was reviewing node.js, namely these references: **[{ nodeJS callbacks }](https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm)   [{ SelfEd-Javascript-Functions-Closures }](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures)   [{ SelfEd-NodeJS-Server-Creating-Of-B }]()** and still felt unsatisfied about the underlying mechanism that makes a function asynchronous. Explanations seemed lacking and examples seemed overly complicated. But I have a hunch and am developing that hunch in this SelfEd.
 
 
 **References:**       | **Sites visited to learn and apply to this SelfEd**
@@ -21,7 +21,7 @@
                       | http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
                       | http://softwareengineering.stackexchange.com/questions/194580/how-does-javascript-code-become-asynchronous-when-using-callbacks
                       | https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm
-                      | [SelEd-Javascript-Functions-Closures](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures) 
+                      | [SelfEd-Javascript-Functions-Closures](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures) 
                       | [SelfEd-NodeJS-Server-Creating-Of-B]()
 
 Process:
@@ -49,21 +49,17 @@ Process:
 
       **http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/**
 
-    I decided to follow this guy's tutorials on callbacks. He seems to
-    break it down nicely into progressively understandable 
-    examples.
+    I decided to follow this guy's tutorials on callbacks. He seems to break it down nicely into progressively understandable     examples.
 
     Refer to file callback_Exp0.html where I started
 
-    Got to creating callback_Exp2.html when: I wondered what makes
-    javascript know it's encountered a function meant to be 
-    asynchronous?
+    Got to creating callback_Exp2.html when: I wondered what makes javascript know it's encountered a function meant to be     asynchronous?
 
-    I queried the question and found this link:
+    I queried the question and found this link below: Seems the opening question is exactly what I'm thinking.
 
-                    http://softwareengineering.stackexchange.com/questions/194580/how-does-javascript-code-become-asynchronous-when-using-callbacks
+      **http://softwareengineering.stackexchange.com/questions/194580/how-does-javascript-code-become-asynchronous-when-using-callbacks**
 
-                    Seems the opening question is exactly what I'm thinking.
+                   
 
     01/06/2017
     This is a return visit. I'm working on:
