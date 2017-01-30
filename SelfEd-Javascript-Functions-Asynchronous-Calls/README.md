@@ -9,9 +9,9 @@
 **Catalyst 2:**     | Also was having trouble moving the RESTful call **_$http.get_** from a controller to a service method in Angular. 
 
 
-**References:**       | **Cited references to learn and apply to this SelfEd**                                                            
+**Citings**           | **Cited references to learn and apply to this SelfEd**                                                           
 ----------------------|-----------------------
-                      | Primary tutorial credit goes to: **Christopher Buecheler**. His tutorial that helped me the most is here:   http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
+   Cite: AAA          | Primary tutorial credit goes to: **Christopher Buecheler**. His tutorial that helped me the most is here:   http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
                       | https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function
                       | https://blog.ometer.com/2011/07/24/callbacks-synchronous-and-asynchronous/
                       | http://callbackhell.com/ (Lots of good explanation in this one)
