@@ -34,11 +34,11 @@ Process:
     But now I wonder if the setTimeout() function is asynchronous itself. 
     So I looked it up.
 
-    Amazingly one web page I found lays out an experiment very much like to my 
+    Amazingly a couple of sites I found lay out an experiment very much like to my 
     approach. It is:
 
-    http://www.hiddenwebgenius.com/blog/guides/understanding-javascripts-asynchronous-code/
-    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function
+    **http://www.hiddenwebgenius.com/blog/guides/understanding-javascripts-asynchronous-code/**        
+    **https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function**
 
     12/3/2016 Note: My quest for asynchronous javascript without the help of NodeJS is not complete.            
 
