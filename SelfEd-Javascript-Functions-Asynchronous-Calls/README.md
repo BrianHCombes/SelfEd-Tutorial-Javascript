@@ -5,7 +5,8 @@
                     | 01/27/2017 (Update)
 **Archive_Title:**  | SelfEd-Javascript-Functions-Asynchronous-Calls
 **Objective:**      | To better understand asynchronous functions (calls) to better understand things like 'promises'
-**Catalyst:**       | Was reviewing node.js, namely these references: **[{ nodeJS callbacks }](https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm)   [{ SelfEd-Javascript-Functions-Closures }](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures)   [{ SelfEd-NodeJS-Server-Creating-Of-B }]()** and still felt unsatisfied about the underlying mechanism that makes a function asynchronous. Explanations seemed lacking and examples seemed overly complicated. But I have a hunch and am developing that hunch in this SelfEd.
+**Catalyst 1:**     | Was reviewing node.js, namely these references: **[{ nodeJS callbacks }](https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm)   [{ SelfEd-Javascript-Functions-Closures }](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures)   [{ SelfEd-NodeJS-Server-Creating-Of-B }]()** and still felt unsatisfied about the underlying mechanism that makes a function asynchronous. Explanations seemed lacking and examples seemed overly complicated. But I have a hunch and am developing that hunch in this SelfEd. 
+**Catalyst 2:**     | Also was having trouble moving the RESTful call **_$http.get_** from a controller to a service method in Angular. 
 
 
 **References:**       | **Sites visited to learn and apply to this SelfEd**
@@ -58,34 +59,19 @@ Process:
   - 01/06/2017   
     This is a return visit. I'm working on a practice AngularJS project: **_SelfEd-Angular-Practice-ProjectA-HTTP-Service_** See **_Code section AAA_** in file: **_Client-Server_Exp4.html_** I have a working **_RESTful_** call ($http.get) in file: **_Client-Server_Exp3.html_** and have a problem where I'm receiving an empty object from a RESTful service, namely **_$http.get_**. I suspect the behavior is because the code is not behaving asynchronously. It's supposed to wait for the **_$http.get_** server call to return something. I think it's blazing right past the server call. This has lead me to the **_.then()_** method and promises. These objects    are Javascript objects and don't seem exclusive to Angular. Yeah!
     
-    Going to the < Promise > link below looks like good reading.
+    Going to the **_Promise_** links below looks like good reading.
 
-    < https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then >
-    < https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise >
+    **https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then**
+    **https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise**
 
-    All this seems good for fully deciphering the nuances and management of
-    asynchronous functions. 
+    All this seems good for fully deciphering the nuances and management of asynchronous functions. 
 
-    The catalyst for this quest is because I'm moving an < $http.get > service
-    from a controller to a service method. And as usual it doesn't work which
-    means I don't understand something.
+    The catalyst for this quest is because I'm moving an **_$http.get_** service from a controller to a service method. And as usual it doesn't work which means I don't understand something.
 
-    http://andyshora.com/promises-angularjs-explained-as-cartoon.html
+    **http://andyshora.com/promises-angularjs-explained-as-cartoon.html**
 
-  - 01/11/2017      
-    I think I have a little more understanding of asynchronous functions. 
-    Refer to file:  < callback_Exp2.html > of which I've done more work on.
-    The setTimeout function is used for the asynchronous behavior. 
-    As it turns out, all functions outside the setTimeout function are 
-    executed right away. The setTimeout function and all functions within
-    the setTimeout function are executed after the time out completes.
-    It seems kinda obvious now. Load the page to see what's up.
+  - 01/11/2017        
+    I think I have a little more understanding of asynchronous functions. Refer to file: **_callback_Exp2.html_** of which I've done more work on. The setTimeout function is used for the asynchronous behavior. As it turns out, all functions outside the setTimeout function are executed right away. The setTimeout function and all functions within the setTimeout function are executed after the time out completes. It seems kinda obvious now. Load the page to see what's up.
 
-    But last and maybe the most important thing!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    Asynchronous behavior appears exclusive to system or query level calls.
-    setTimeout() is a call to the system. A query is a call to a server, etc.
-    These are things outside of the javascript sandbox.
-    
-    ****************************************************************************
-    Publishable     Publishable     Publishable     Publishable    Publishable
-    ****************************************************************************
+    ###But last and maybe the most important thing!!!!!!!!!!!!!!!!!!!!!!!!!!!!###   
+    Asynchronous behavior appears exclusive to system or query level calls. setTimeout() is a call to the system. A query is a call to a server, etc. These are things outside of the javascript sandbox.
