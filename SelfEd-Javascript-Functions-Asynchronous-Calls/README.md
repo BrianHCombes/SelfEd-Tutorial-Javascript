@@ -29,11 +29,7 @@ Process:
   - 11/27/2016     
     First Approach: call setTimeout() functions within defined functions
 
-    I decided to set up three functions called time1, time2, time3. I installed
-    the setTimeout() function in each one. I set them to 1000, 2000, 3000
-    milliseconds and called them upon page load. They executed accordingly.
-    But now I wonder if the setTimeout() function is asynchronous itself. 
-    So I looked it up.
+    I decided to set up three functions called time1, time2, time3. I installed the setTimeout() function in each one. I set them to 1000, 2000, 3000 milliseconds and called them upon page load. They executed accordingly. But now I wonder if the setTimeout() function is asynchronous itself. So I looked it up.
 
     Amazingly a couple of sites I found lay out an experiment very much like to my 
     approach. It is:
@@ -59,19 +55,9 @@ Process:
 
       **http://softwareengineering.stackexchange.com/questions/194580/how-does-javascript-code-become-asynchronous-when-using-callbacks**
 
-                   
-
-  - 01/06/2017
-    This is a return visit. I'm working on a practice AngularJS project: **_SelfEd-Angular-Practice-ProjectA-HTTP-Service_**
-    See < code section AAA > in file: < Client-Server_Exp4.html >          
-    I have a working RESTful call ($http.get) in file: 
-    < Client-Server_Exp3.html > 
-    and have a problem where I'm receiving an empty object from a RESTful
-    service, namely < $http.get >. I suspect the behavior is because the code
-    is not behaving asynchronously. It's supposed to wait for the < $http.get >
-    server call to return something. I think it's blazing right past the server
-    call. This has lead me to the < .then() > method and promises. These objects
-    are Javascript objects and don't seem exclusive to Angular. Yeah!
+  - 01/06/2017   
+    This is a return visit. I'm working on a practice AngularJS project: **_SelfEd-Angular-Practice-ProjectA-HTTP-Service_** See **_Code section AAA_** in file: **_Client-Server_Exp4.html_** I have a working **_RESTful_** call ($http.get) in file: **_Client-Server_Exp3.html_** and have a problem where I'm receiving an empty object from a RESTful service, namely **_$http.get_**. I suspect the behavior is because the code is not behaving asynchronously. It's supposed to wait for the **_$http.get_** server call to return something. I think it's blazing right past the server call. This has lead me to the **_.then()_** method and promises. These objects    are Javascript objects and don't seem exclusive to Angular. Yeah!
+    
     Going to the < Promise > link below looks like good reading.
 
     < https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then >
@@ -86,7 +72,7 @@ Process:
 
     http://andyshora.com/promises-angularjs-explained-as-cartoon.html
 
-    01/11/2017
+  - 01/11/2017      
     I think I have a little more understanding of asynchronous functions. 
     Refer to file:  < callback_Exp2.html > of which I've done more work on.
     The setTimeout function is used for the asynchronous behavior. 
