@@ -10,18 +10,16 @@
 
 **References:**       | **Sites visited to learn and apply to this SelfEd**
 ----------------------|-----------------------
-                      |  Primary tutorial credit goes to: **Christopher Buecheler**. His tutorial that helped me the most is here:   http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
-                    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function
-                    https://blog.ometer.com/2011/07/24/callbacks-synchronous-and-asynchronous/
-                    http://callbackhell.com/ (Lots of good explanation in this one)
-                    http://esbueno.noahstokes.com/post/77292606977/self-executing-anonymous-functions-or-how-to-write
-
-
-                    http://stackoverflow.com/questions/6921895/synchronous-delay-in-code-execution
-                    http://esbueno.noahstokes.com/post/77292606977/self-executing-anonymous-functions-or-how-to-write
-                    https://www.impressivewebs.com/callback-functions-javascript/
-                    http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
-                    http://softwareengineering.stackexchange.com/questions/194580/how-does-javascript-code-become-asynchronous-when-using-callbacks
+                      | Primary tutorial credit goes to: **Christopher Buecheler**. His tutorial that helped me the most is here:   http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
+                      | https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function
+                      | https://blog.ometer.com/2011/07/24/callbacks-synchronous-and-asynchronous/
+                      | http://callbackhell.com/ (Lots of good explanation in this one)
+                      | http://esbueno.noahstokes.com/post/77292606977/self-executing-anonymous-functions-or-how-to-write
+                      | http://stackoverflow.com/questions/6921895/synchronous-delay-in-code-execution
+                      | http://esbueno.noahstokes.com/post/77292606977/self-executing-anonymous-functions-or-how-to-write
+                      | https://www.impressivewebs.com/callback-functions-javascript/
+                      | http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
+                      | http://softwareengineering.stackexchange.com/questions/194580/how-does-javascript-code-become-asynchronous-when-using-callbacks
 
 
 
