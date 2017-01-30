@@ -18,11 +18,10 @@
 [Cite-AAE](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | http://esbueno.noahstokes.com/post/77292606977/self-executing-anonymous-functions-or-how-to-write
 [Cite-AAF](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | http://stackoverflow.com/questions/6921895/synchronous-delay-in-code-execution
 [Cite-AAG](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | https://www.impressivewebs.com/callback-functions-javascript/
-[Cite-AAH](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
-[Cite-AAI](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | http://softwareengineering.stackexchange.com/questions/194580/how-does-javascript-code-become-asynchronous-when-using-callbacks
-[Cite-AAJ](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm
-[Cite-AAK](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | [SelfEd-Javascript-Functions-Closures](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures) 
-[Cite-AAL](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | [SelfEd-NodeJS-Server-Creating-Of-B](https://github.com/BrianHCombes/SelfEd-Tutorials-NodeJS/tree/master/SelfEd-NodeJS-Server-Creating-Of-B)
+[Cite-AAH](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | http://softwareengineering.stackexchange.com/questions/194580/how-does-javascript-code-become-asynchronous-when-using-callbacks
+[Cite-AAI](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm
+[Cite-AAJ](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | [SelfEd-Javascript-Functions-Closures](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures) 
+[Cite-AAK](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | [SelfEd-NodeJS-Server-Creating-Of-B](https://github.com/BrianHCombes/SelfEd-Tutorials-NodeJS/tree/master/SelfEd-NodeJS-Server-Creating-Of-B)
 
 ### **Learn Process:**
 
