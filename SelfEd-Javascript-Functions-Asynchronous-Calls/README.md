@@ -5,11 +5,7 @@
                     | 01/27/2017 (Update)
 **Archive_Title:**  | SelfEd-Javascript-Functions-Asynchronous-Calls
 **Objective:**      | To better understand asynchronous functions (calls) to better understand things like 'promises'
-**Catalyst:**       | Was reviewing node.js, namely these references:
-                    | [nodeJS callbacks](https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm)
-                    | [SelEd-Javascript-Functions-Closures](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures)
-                    | [SelfEd-NodeJS-Server-Creating-Of-B]()
-                    | and still felt unsatisfied about the underlying mechanism that makes a function asynchronous. Explanations seemed lacking and examples seemed overly complex. But I have a hunch and am developing that hunch in this SelfEd.
+**Catalyst:**       | Was reviewing node.js, namely these references: **[{ nodeJS callbacks }](https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm)   [{ SelEd-Javascript-Functions-Closures }](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures)   [{ SelfEd-NodeJS-Server-Creating-Of-B }]()** and still felt unsatisfied about the underlying mechanism that makes a function asynchronous. Explanations seemed lacking and examples seemed overly complex. But I have a hunch and am developing that hunch in this SelfEd.
 
 
 **References:**       | **Sites visited to learn and apply to this SelfEd**
