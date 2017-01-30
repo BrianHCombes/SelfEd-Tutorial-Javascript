@@ -11,8 +11,8 @@ AAF              | Stack Overflow               | Aug 03, 2011    | Synchronous 
 AAG              | Lazaris, Louis               | Feb 14, 2012    | Callback Functions in JavaScript            | https://www.impressivewebs.com/callback-functions-javascript/
 AAH              | Software Engineering         | Apr 10, 2013    | How does Javascript code become asynchronous when using callbacks?     | http://softwareengineering.stackexchange.com/questions/194580/how-does-javascript-code-become-asynchronous-when-using-callbacks
 AAI              | tutorialspoint               |                 | Node.js - Callbacks Concept                 | https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm
-AAJ              |                              |                 |                                             |
-AAK              |                              |                 |                                             |
+AAJ              | NA                           |                 |                                             |
+AAK              | NA                           |                 |                                             |
 AAL              |                              |                 |                                             |
 AAM              |                              |                 |                                             |
 AAN              |                              |                 |                                             |
