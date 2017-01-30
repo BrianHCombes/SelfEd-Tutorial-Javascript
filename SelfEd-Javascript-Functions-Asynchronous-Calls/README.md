@@ -26,7 +26,8 @@
 
 Process:
 
-  - First Approach: call setTimeout() functions within defined functions
+  - 11/27/2016     
+    First Approach: call setTimeout() functions within defined functions
 
     I decided to set up three functions called time1, time2, time3. I installed
     the setTimeout() function in each one. I set them to 1000, 2000, 3000
@@ -37,27 +38,28 @@ Process:
     Amazingly a couple of sites I found lay out an experiment very much like to my 
     approach. It is:
 
-    **http://www.hiddenwebgenius.com/blog/guides/understanding-javascripts-asynchronous-code/**        
-    **https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function**
+      **http://www.hiddenwebgenius.com/blog/guides/understanding-javascripts-asynchronous-code/**        
+      **https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function**
 
-    12/3/2016 Note: My quest for asynchronous javascript without the help of NodeJS is not complete.            
+  - 12/3/2016   
+    Note: My quest for asynchronous javascript without the help of NodeJS is not complete.            
 
-    12/4/2016 Note: I'm back trying to better grasp how callback functions work. I'm fairly comfortable
-                    using them but I want to know how they work. Heres a hopeful reference:
+  - 12/4/2016   
+    Note: I'm back trying to better grasp how callback functions work. I'm fairly comfortable using them but I want to know how they work. Heres a hopeful reference:
 
-                    http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
+      **http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/**
 
-                    I decided to follow this guy's tutorials on callbacks. He seems to
-                    break it down nicely into progressively understandable 
-                    examples.
+    I decided to follow this guy's tutorials on callbacks. He seems to
+    break it down nicely into progressively understandable 
+    examples.
 
-                    Refer to file callback_Exp0.html where I started
+    Refer to file callback_Exp0.html where I started
 
-                    Got to creating callback_Exp2.html when: I wondered what makes
-                    javascript know it's encountered a function meant to be 
-                    asynchronous?
+    Got to creating callback_Exp2.html when: I wondered what makes
+    javascript know it's encountered a function meant to be 
+    asynchronous?
 
-                    I queried the question and found this link:
+    I queried the question and found this link:
 
                     http://softwareengineering.stackexchange.com/questions/194580/how-does-javascript-code-become-asynchronous-when-using-callbacks
 
