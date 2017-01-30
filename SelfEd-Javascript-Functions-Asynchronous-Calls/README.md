@@ -20,6 +20,9 @@
                       | https://www.impressivewebs.com/callback-functions-javascript/
                       | http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
                       | http://softwareengineering.stackexchange.com/questions/194580/how-does-javascript-code-become-asynchronous-when-using-callbacks
+                      | https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm
+                      | [{ SelEd-Javascript-Functions-Closures }](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures) 
+                      | [{ SelfEd-NodeJS-Server-Creating-Of-B }]()
 
 
 
