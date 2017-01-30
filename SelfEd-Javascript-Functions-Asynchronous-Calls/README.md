@@ -61,9 +61,8 @@ Process:
 
                    
 
-    01/06/2017
-    This is a return visit. I'm working on:
-                < SelfEd-Angular-Practice-ProjectA-HTTP-Service > 
+  - 01/06/2017
+    This is a return visit. I'm working on a practice AngularJS project: **_SelfEd-Angular-Practice-ProjectA-HTTP-Service_**
     See < code section AAA > in file: < Client-Server_Exp4.html >          
     I have a working RESTful call ($http.get) in file: 
     < Client-Server_Exp3.html > 
