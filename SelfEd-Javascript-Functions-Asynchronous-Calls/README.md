@@ -25,7 +25,7 @@
                       | [SelfEd-Javascript-Functions-Closures](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures) 
                       | [SelfEd-NodeJS-Server-Creating-Of-B]()
 
-Process:
+### **Learn Process:**
 
   - 11/27/2016     
     First Approach: call setTimeout() functions within defined functions
