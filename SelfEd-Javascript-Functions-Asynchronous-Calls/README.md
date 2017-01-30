@@ -12,18 +12,18 @@
 **References**        | **Cited references to learn and apply to this SelfEd**                                                           
 ----------------------|-----------------------
 [Cite-AAA](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | Primary tutorial credit goes to: **Christopher Buecheler**. His tutorial that helped me the most is here:   http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
-                      | https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function
-                      | https://blog.ometer.com/2011/07/24/callbacks-synchronous-and-asynchronous/
-                      | http://callbackhell.com/ (Lots of good explanation in this one)
-                      | http://esbueno.noahstokes.com/post/77292606977/self-executing-anonymous-functions-or-how-to-write
-                      | http://stackoverflow.com/questions/6921895/synchronous-delay-in-code-execution
-                      | http://esbueno.noahstokes.com/post/77292606977/self-executing-anonymous-functions-or-how-to-write
-                      | https://www.impressivewebs.com/callback-functions-javascript/
-                      | http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
-                      | http://softwareengineering.stackexchange.com/questions/194580/how-does-javascript-code-become-asynchronous-when-using-callbacks
-                      | https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm
-                      | [SelfEd-Javascript-Functions-Closures](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures) 
-                      | [SelfEd-NodeJS-Server-Creating-Of-B](https://github.com/BrianHCombes/SelfEd-Tutorials-NodeJS/tree/master/SelfEd-NodeJS-Server-Creating-Of-B)
+[Cite-AAB](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function
+[Cite-AAC](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | https://blog.ometer.com/2011/07/24/callbacks-synchronous-and-asynchronous/
+[Cite-AAD](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | http://callbackhell.com/ (Lots of good explanation in this one)
+[Cite-AAE](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | http://esbueno.noahstokes.com/post/77292606977/self-executing-anonymous-functions-or-how-to-write
+[Cite-AAF](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | http://stackoverflow.com/questions/6921895/synchronous-delay-in-code-execution
+[Cite-AAG](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | http://esbueno.noahstokes.com/post/77292606977/self-executing-anonymous-functions-or-how-to-write
+[Cite-AAH](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | https://www.impressivewebs.com/callback-functions-javascript/
+[Cite-AAI](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
+[Cite-AAJ](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | http://softwareengineering.stackexchange.com/questions/194580/how-does-javascript-code-become-asynchronous-when-using-callbacks
+[Cite-AAK](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm
+[Cite-AAL](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | [SelfEd-Javascript-Functions-Closures](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures) 
+[Cite-AAM](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)                                 | [SelfEd-NodeJS-Server-Creating-Of-B](https://github.com/BrianHCombes/SelfEd-Tutorials-NodeJS/tree/master/SelfEd-NodeJS-Server-Creating-Of-B)
 
 ### **Learn Process:**
 
