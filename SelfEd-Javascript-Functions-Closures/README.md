@@ -1,7 +1,7 @@
 ### **_My 'SelfEd' Code Diaries_**
 #**Javascript - Function Closures**#
 
->>>>>>> Plunker <<<<<<<| Citation / Note
+:large_blue_circle: Plunker | Citation / Note
 ----------------------------------------------------------------------------|--------------------------------------------------------
 [**Run File: callback_Function-Closure.html**](https://plnkr.co/edit/vaAyx2nm6eVaW3rhJUy5?p=preview) | This SelfEd on function closures is simple. Please refer to the References I visited (links below) for more depth on the subject. 
 
