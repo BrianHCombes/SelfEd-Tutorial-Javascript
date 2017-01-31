@@ -1,6 +1,6 @@
 # References Cited in this SelfEd
 
-Citation Ref     |Author                        |Date             |Title                                        |Retrieved From
+Citation         |Author                        |Date             |Title                                        |Retrieved From
 -----------------|------------------------------|-------------|---------------------------------------------|----------
 AAA              | Buecheler, Christopher       |             | UNDERSTANDING JAVASCRIPT CALLBACKS| http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
 AAB              | Mozilla                      |             | API                                         |                 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function
