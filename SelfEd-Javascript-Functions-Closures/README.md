@@ -5,6 +5,8 @@ Plunker | Citation / Note
 ----------------------------------------------------------------------------------------------------|-------------------------------------
 [**:small_blue_diamond: Run File: callback_Function-Closure.html**](https://plnkr.co/edit/vaAyx2nm6eVaW3rhJUy5?p=preview) | See references below for more subject depth.
 
+** **
+
 **SelfEd**          |  **Info** 
 ------------------- | ------------------------------------------------------------------------
 **Date:**           | 11/16/2016 
@@ -13,6 +15,7 @@ Plunker | Citation / Note
 **Objective:**      | To understand the workings of function closures in Javascript
 **Catalyst:**       | While learning **MEAN** Stack disciplines I encountered the issue of function closure. 
 
+** **
 
 **References:**       | **Sites visited to learn and apply to this SelfEd**
 ----------------------|-----------------------
