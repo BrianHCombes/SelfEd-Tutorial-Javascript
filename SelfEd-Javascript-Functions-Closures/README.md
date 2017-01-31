@@ -16,7 +16,7 @@
 3                     | http://javascriptissexy.com/understand-javascript-closures-with-ease/
 4                     | https://www.smashingmagazine.com/2014/07/dont-be-scared-of-functional-programming/
 5                     | http://recurial.com/programming/understanding-callback-functions-in-javascript/
-
+#
 ### **Learn Process:**
 
 Load **Function-Closure.html** in a broswer for the instructional reading of it.     
