@@ -22,7 +22,8 @@
                       | https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm
                       | [SelfEd-Javascript-Functions-Closures](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures) 
                       | [SelfEd-NodeJS-Server-Creating-Of-B](https://github.com/BrianHCombes/SelfEd-Tutorials-NodeJS/tree/master/SelfEd-NodeJS-Server-Creating-Of-B)
-
+                      
+****
 ### **Learn Process:**
 
   - 11/27/2016     
