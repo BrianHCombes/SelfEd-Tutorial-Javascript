@@ -31,7 +31,7 @@
     I decided to set up three functions called time1, time2, time3. I installed the setTimeout() function in each one. I set them to 1000, 2000, 3000 milliseconds and called them upon page load. They executed accordingly. But now I wonder if the setTimeout() function is asynchronous itself. So I looked it up.
 
     Amazingly a couple of sites I found lay out an experiment very much like to my 
-    approach. It is:
+    approach. They are:
 
       **http://www.hiddenwebgenius.com/blog/guides/understanding-javascripts-asynchronous-code/**        
       **https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function**
