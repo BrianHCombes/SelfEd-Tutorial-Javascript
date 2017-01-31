@@ -1,4 +1,5 @@
-#**SelfEd - Javascript - Function Closures**#
+### **_My 'SelfEd' Code Diaries_**
+#**Javascript - Function Closures**#
 **SelfEd**          |  **Info** 
 ------------------- | ------------------------------------------------------------------------
 **Date:**           | 11/16/2016 
