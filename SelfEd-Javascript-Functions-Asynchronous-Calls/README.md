@@ -19,7 +19,7 @@ Plunker | Citation / Note
 
 
 
-**References**        | **Cited references to learn and apply to this SelfEd**                                                           
+**Citation / Note**   | **References - cited to learn and apply to this SelfEd**                                                
 ----------------------|-----------------------
                       | Primary tutorial credit goes to: **Christopher Buecheler**. His tutorial that helped me the most is here:   http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
                       | https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function
