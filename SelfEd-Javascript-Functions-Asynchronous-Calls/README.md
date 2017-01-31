@@ -1,4 +1,4 @@
-### **_My SelfEd Code Diaries_**
+### **_My 'SelfEd' Code Diaries_**
 #**Javascript - Asynchronous Calls**#
 **SelfEd**          |  **Info** 
 ------------------- | ------------------------------------------------------------------------
