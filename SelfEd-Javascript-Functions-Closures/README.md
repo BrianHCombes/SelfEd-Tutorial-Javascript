@@ -4,6 +4,7 @@
 Plunker | Citation / Note
 ----------------------------------------------------------------------------------------------------|-------------------------------------
 [**:small_blue_diamond: Run File: callback_Function-Closure.html**](https://plnkr.co/edit/vaAyx2nm6eVaW3rhJUy5?p=preview) | See references below for more subject depth.
+
 **SelfEd**          |  **Info** 
 ------------------- | ------------------------------------------------------------------------
 **Date:**           | 11/16/2016 
