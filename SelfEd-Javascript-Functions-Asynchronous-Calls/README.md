@@ -6,7 +6,7 @@ Plunker | Citation / Note
 [:small_blue_diamond: Run File: callback_Exp1.html](https://plnkr.co/edit/WbKJVIO7N85KcxFPkhtS?p=preview) | [Citation AAA - Author credit for basic code structure](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/SelfEd-Javascript-Functions-Asynchronous-Calls/References.md)
 [:small_blue_diamond: Run File: callback_Exp2.html - Start here](https://plnkr.co/edit/7n4uamnMBGll6IP1MyJm?p=preview) | [Citation AAA - Author credit for basic code structure](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/SelfEd-Javascript-Functions-Asynchronous-Calls/References.md)
 
-** **
+
 
 **SelfEd**          |  **Info** 
 ------------------- | ------------------------------------------------------------------------
@@ -17,7 +17,7 @@ Plunker | Citation / Note
 **Catalyst 1:**     | Was reviewing node.js, namely these references:                                                                   **[https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm](https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm) ,   [SelfEd-Javascript-Functions-Closures](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures) ,  [SelfEd-NodeJS-Server-Creating-Of-B](https://github.com/BrianHCombes/SelfEd-Tutorials-NodeJS/tree/master/SelfEd-NodeJS-Server-Creating-Of-B)** and still felt unsatisfied about the underlying mechanism that makes a function asynchronous. Explanations seemed lacking and examples seemed overly complicated. But I have a hunch and am developing that hunch in this SelfEd. 
 **Catalyst 2:**     | Also was having trouble moving the RESTful call **_$http.get_** from a controller to a service method in Angular. 
 
-** **
+
 
 **References**        | **Cited references to learn and apply to this SelfEd**                                                           
 ----------------------|-----------------------
