@@ -29,4 +29,4 @@ Plunker | Citation / Note
 ### **Learn Process:**
 
 Run  **Function-Closure.html** in Plunker for the instructional reading of it.    
-- **[Run File: callback_Function-Closure.html](https://plnkr.co/edit/vaAyx2nm6eVaW3rhJUy5?p=preview)**
+:small_blue_diamond: **[Run File: callback_Function-Closure.html](https://plnkr.co/edit/vaAyx2nm6eVaW3rhJUy5?p=preview)**
