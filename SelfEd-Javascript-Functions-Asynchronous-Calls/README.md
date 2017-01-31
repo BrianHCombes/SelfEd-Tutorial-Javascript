@@ -1,7 +1,8 @@
 ### **_My 'SelfEd' Code Diaries_**
-#**Javascript - Asynchronous Function Calls**#
-[Run code in Plunker](https://plnkr.co/edit/7n4uamnMBGll6IP1MyJm?p=preview) | [Formal Citation Reference AAA](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/SelfEd-Javascript-Functions-Asynchronous-Calls/References.md)
+#**Javascript - Asynchronous Function Calls**
+Plunker | Citation
 ----------------------------------------------------------------------------|--------------------------------------------------------
+[Run file: callback_Exp2.html'](https://plnkr.co/edit/7n4uamnMBGll6IP1MyJm?p=preview) | [Formal Citation Reference AAA](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/SelfEd-Javascript-Functions-Asynchronous-Calls/References.md)
 
 **SelfEd**          |  **Info** 
 ------------------- | ------------------------------------------------------------------------
