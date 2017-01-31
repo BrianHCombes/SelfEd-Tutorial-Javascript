@@ -1,6 +1,6 @@
 ### **_My 'SelfEd' Code Diaries_**
 #**Javascript - Asynchronous Function Calls**#
-[Run code in Plunker](https://plnkr.co/edit/7n4uamnMBGll6IP1MyJm?p=preview) | Citation
+[Run code in Plunker](https://plnkr.co/edit/7n4uamnMBGll6IP1MyJm?p=preview) | [Formal Citation Reference AAA](
 ----------------------------------------------------------------------------|-----------
 
 **SelfEd**          |  **Info** 
