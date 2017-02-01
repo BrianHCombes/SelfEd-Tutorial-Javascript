@@ -1,10 +1,10 @@
 ### **_My 'SelfEd' Code Diaries_**
 #**Javascript - Asynchronous Function Calls**
-Plunker | Citation / Note
+Run in Plunker | Citation / Note
 ----------------------------------------------------------------------------|--------------------------------------------------------
-[:small_blue_diamond: Run File: callback_Exp0.html](https://plnkr.co/edit/9kyuMzqQtq3Q3MP8mjGC?p=preview) | [Citation AAA - Author credit for basic code structure](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/SelfEd-Javascript-Functions-Asynchronous-Calls/References.md)
-[:small_blue_diamond: Run File: callback_Exp1.html](https://plnkr.co/edit/WbKJVIO7N85KcxFPkhtS?p=preview) | [Citation AAA - Author credit for basic code structure](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/SelfEd-Javascript-Functions-Asynchronous-Calls/References.md)
-[:small_blue_diamond: Run File: callback_Exp2.html - Start here](https://plnkr.co/edit/7n4uamnMBGll6IP1MyJm?p=preview) | [Citation AAA - Author credit for basic code structure](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/SelfEd-Javascript-Functions-Asynchronous-Calls/References.md)
+[:small_blue_diamond:callback_Exp0.html](https://plnkr.co/edit/9kyuMzqQtq3Q3MP8mjGC?p=preview) | [Citation AAA - Author credit for basic code structure](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/SelfEd-Javascript-Functions-Asynchronous-Calls/References.md)
+[:small_blue_diamond:callback_Exp1.html](https://plnkr.co/edit/WbKJVIO7N85KcxFPkhtS?p=preview) | [Citation AAA - Author credit for basic code structure](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/SelfEd-Javascript-Functions-Asynchronous-Calls/References.md)
+[:small_blue_diamond:callback_Exp2.html - Start here](https://plnkr.co/edit/7n4uamnMBGll6IP1MyJm?p=preview) | [Citation AAA - Author credit for basic code structure](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/SelfEd-Javascript-Functions-Asynchronous-Calls/References.md)
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
