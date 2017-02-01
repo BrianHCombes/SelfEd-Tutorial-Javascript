@@ -1,7 +1,7 @@
 ### **_My 'SelfEd' Code Diaries_**
 #**Javascript - Function Closures**#
 
-Run in Plunker | Citation / Note
+Run examples in Plunker | Citation / Note
 ----------------------------------------------------------------------------------------------------|-------------------------------------
 [**:small_blue_diamond: callback_Function-Closure.html**](https://plnkr.co/edit/vaAyx2nm6eVaW3rhJUy5?p=preview) | See references below for more subject depth.
 
