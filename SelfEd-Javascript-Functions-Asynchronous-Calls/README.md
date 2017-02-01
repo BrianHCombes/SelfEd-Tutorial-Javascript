@@ -84,5 +84,5 @@ Run in Plunker | Citation / Note
   - 01/11/2017        
     I think I have a little more understanding of asynchronous functions. Refer to file: **_callback_Exp2.html_** of which I've done more work on. The setTimeout function is used for the asynchronous behavior. As it turns out, all functions outside the setTimeout function are executed right away. The setTimeout function and all functions within the setTimeout function are executed after the time out completes. It seems kinda obvious now. Load the page to see what's up.
 
-   ## :heavy_exclamation_mark::heavy_exclamation_mark: But last and maybe the most important thing !!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+   ## :red_circle: Maybe the most important thing !!!!!!!!!!!!!!!!!!!!!!!!!!!! 
     Asynchronous behavior appears exclusive to system or query level calls. The setTimeout() method is a call to the system. A query is a call to a server, etc. These are things outside of the javascript sandbox.
