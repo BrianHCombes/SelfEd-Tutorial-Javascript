@@ -15,13 +15,13 @@ Run in Plunker | Citation / Note
                     | 01/27/2017 (Update)
 **Archive_Title:**  | SelfEd-Javascript-Functions-Asynchronous-Calls
 **Objective:**      | To better understand asynchronous functions (calls) to better understand things like 'promises'
-**Catalyst 1:**     | Was reviewing node.js, namely these references:                                                                   **[https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm](https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm) ,   [SelfEd-Javascript-Functions-Closures](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures) ,  [SelfEd-NodeJS-Server-Creating-Of-B](https://github.com/BrianHCombes/SelfEd-Tutorials-NodeJS/tree/master/SelfEd-NodeJS-Server-Creating-Of-B)** and still felt unsatisfied about the underlying mechanism that makes a function asynchronous. Explanations seemed lacking and examples seemed overly complicated. But I have a hunch and am developing that hunch in this SelfEd. 
+**Catalyst 1:**     | Was reviewing node.js, namely these links:                                                                       **[https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm](https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm) ,   [SelfEd-Javascript-Functions-Closures](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures) ,  [SelfEd-NodeJS-Server-Creating-Of-B](https://github.com/BrianHCombes/SelfEd-Tutorials-NodeJS/tree/master/SelfEd-NodeJS-Server-Creating-Of-B)** and still felt unsatisfied about the underlying mechanism that makes a function asynchronous. Explanations seemed lacking and examples seemed overly complicated. But I have a hunch and am developing that hunch in this SelfEd. 
 **Catalyst 2:**     | Also was having trouble moving the RESTful call **_$http.get_** from a controller to a service method in Angular. 
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
 ### :arrow_down_small: **Tutorial Links**
-**Citation / Note**   | **References - links learned from....**                                                
+**Citation / Note**   | **Links learned from....**                                                
 ----------------------|-----------------------
 [AAA](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/SelfEd-Javascript-Functions-Asynchronous-Calls/References.md)  | Primary tutorial credit goes to: **Christopher Buecheler**. His tutorial that helped me the most is here:   http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
                       | https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function
@@ -53,7 +53,7 @@ Run in Plunker | Citation / Note
     Note: My quest for asynchronous javascript without the help of NodeJS is not complete.            
 
   - 12/4/2016   
-    Note: I'm back trying to better grasp how callback functions work. I'm fairly comfortable using them but I want to know how they work. Heres a hopeful reference:
+    Note: I'm back trying to better grasp how callback functions work. I'm fairly comfortable using them but I want to know how they work. Heres a hopeful link:
 
       **http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/**
 
