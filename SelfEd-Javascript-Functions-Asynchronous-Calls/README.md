@@ -8,6 +8,7 @@ Run in Plunker | Citation / Note
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
+### :arrow_down_small: **Metadata**
 **SelfEd**          |  **Info** 
 ------------------- | ------------------------------------------------------------------------
 **Date:**           | 11/27/2016
@@ -19,6 +20,7 @@ Run in Plunker | Citation / Note
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
+### :arrow_down_small: **Links**
 **Citation / Note**   | **References - cited to learn and apply to this SelfEd**                                                
 ----------------------|-----------------------
                       | Primary tutorial credit goes to: **Christopher Buecheler**. His tutorial that helped me the most is here:   http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
@@ -34,7 +36,7 @@ Run in Plunker | Citation / Note
                       | [SelfEd-NodeJS-Server-Creating-Of-B](https://github.com/BrianHCombes/SelfEd-Tutorials-NodeJS/tree/master/SelfEd-NodeJS-Server-Creating-Of-B)
                       
 ****
-### **Learn Process:**
+### :arrow_down_small: **Learn Process:**
 
   - 11/27/2016     
     First Approach: call setTimeout() functions within defined functions
