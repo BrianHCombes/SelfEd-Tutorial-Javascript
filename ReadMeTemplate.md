@@ -1,3 +1,4 @@
+# Template / Example Only
 ### **_My 'SelfEd' Code Diaries_**
 #**Javascript - Asynchronous Function Calls**
 Run in Plunker | Citation / Note
