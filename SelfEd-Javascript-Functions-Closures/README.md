@@ -2,13 +2,12 @@
 #**Javascript - Function Closures**#
 
 Run examples in Plunker | Citation / Note
-----------------------------------------------------------------------------------------------------|-------------------------------------
+----------------------------------------------------------------------------------------------------|---------------------------------
 [**:small_blue_diamond: callback_Function-Closure.html**](https://plnkr.co/edit/vaAyx2nm6eVaW3rhJUy5?p=preview) | See references below for more subject depth.
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
-
-
+### :arrow_down_small: **Metadata**
 **SelfEd**          |  **Info** 
 ------------------- | ------------------------------------------------------------------------
 **Date:**           | 11/16/2016 
