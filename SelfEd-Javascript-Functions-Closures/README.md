@@ -18,6 +18,7 @@ Run examples in Plunker | Citation / Note
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
+### :arrow_down_small: **Links**
 **References:**       | **Sites visited to learn and apply to this SelfEd**
 ----------------------|-----------------------
 1                     | http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/
@@ -27,7 +28,8 @@ Run examples in Plunker | Citation / Note
 5                     | http://recurial.com/programming/understanding-callback-functions-in-javascript/
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
-### **Learn Process:**
+
+### :arrow_down_small: **Learn Process:**
 
 Run  **Function-Closure.html** in Plunker for the instructional reading of it.    
 :small_blue_diamond: **[Run File: callback_Function-Closure.html](https://plnkr.co/edit/vaAyx2nm6eVaW3rhJUy5?p=preview)**
