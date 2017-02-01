@@ -21,11 +21,11 @@ Run examples in Plunker | Citation / Note
 ### :arrow_down_small: **Tutorial Links**
 **References:**       | **Sites visited to learn and apply to this SelfEd**
 ----------------------|-----------------------
-1                     | http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/
-2                     | http://edumaven.com/javascript-programming/passing-function-as-parameter
-3                     | http://javascriptissexy.com/understand-javascript-closures-with-ease/
-4                     | https://www.smashingmagazine.com/2014/07/dont-be-scared-of-functional-programming/
-5                     | http://recurial.com/programming/understanding-callback-functions-in-javascript/
+                      | http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/
+                      | http://edumaven.com/javascript-programming/passing-function-as-parameter
+                      | http://javascriptissexy.com/understand-javascript-closures-with-ease/
+                      | https://www.smashingmagazine.com/2014/07/dont-be-scared-of-functional-programming/
+                      | http://recurial.com/programming/understanding-callback-functions-in-javascript/
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
