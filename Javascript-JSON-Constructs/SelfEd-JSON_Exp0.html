@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- 
+This JSON parse and stringify example(s) is with simple key value pairs
+
+//  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
+//  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
+
+
+-->
+<html>
+    <head>
+        <title>SelfEd - JSON Parse and Stringify - Part 1</title>
+        <link rel="SHORTCUT ICON" href="http://www.tarptiedown.com/ttd-website/ttd-website-pics-videos/instruction-images/teacherIcon.png">  
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>See console for output</div>
+        
+        <script>
+            
+            
+            var jsonObj;
+            var jsonStr;
+            
+            // A very simple JSON string - The string becomes a JSON object once it's parsed.    
+            var jsonText = '{"key":"value"}';
+            jsonObj = JSON.parse(jsonText);
+            jsonStr = JSON.stringify(jsonObj);
+            
+            console.log(jsonObj.key);
+            console.log(jsonStr);
+
+      
+            //  This string has three key:value pairs. For proper accessability 
+            //  each key must have a unique name unless you set it up as an array
+            //  object. See the SelfEd-JSON_Exp1.html file for setting it up as an
+            //  array object.
+            var jsonText = '{"key1":"value1","key2":"value2","key3":"value3"}';
+            jsonObj = JSON.parse(jsonText);
+            jsonStr = JSON.stringify(jsonObj);
+            
+            console.log(jsonObj.key1);
+            console.log(jsonStr);
+            
+                        
+            
+             
+            console.log("***************************************************************************************************************************************\n" + 
+                        "VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV");                
+             
+            //  This string has three key:value pairs. For proper accessability 
+            //  each key must have a unique name unless you set it up as an array
+            //  object. See the SelfEd-JSON_Exp1.html file for setting it up as an
+            //  array object.
+            // This JSON.parse statement with the function is called a reviver function and is able to iterate through the JSON string
+            var jsonText = '{"key1":"value1","key2":"value2","key3":"value3"}';
+            JSON.parse(jsonText, function(key,value){
+                console.log(key);
+                console.log(value);   
+            });
+            
+            jsonObj = JSON.parse(jsonText);
+            jsonStr = JSON.stringify(jsonObj);
+            
+            console.log(jsonObj.key1);
+            console.log(jsonStr);        
+                    
+            console.log("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n" +
+                        "**************************************************************************************************************************************");       
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+
+
+/* 
+            // This format came from the example at:
+            // http://www.w3schools.com/js/js_json_intro.asp
+            var j = '{"elements": [{"name":"Brian"},{"name":"Christine the Beautiful"}]}';
+            var obj = JSON.parse(j);
+            console.log("object is: " + obj.elements[1].name);
+            
+            
+            
+            // This format is modified from the example at:
+            // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
+            // It appears the function involved is called a < reviver >. The 
+            // nuance here is the each key must have a unique name, otherwise
+            // only the last key:value is displayed if all the keys have the 
+            // same name.
+            JSON.parse('{"name1":"Brian","name2":"Christine the Beautiful","name3":"Proper Lady"}', function(key,value){
+                console.log(key);
+                // console.log(value);
+                return value;
+                
+            });
+            
+            // This format is modified from the example at:
+            // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
+            // It appears the function involved is called a < reviver >. The 
+            // nuance here is the each key must have a unique name, otherwise
+            // only the last key:value is displayed if all the keys have the 
+            // same name.
+            JSON.parse('{"1": 1, "2": 2, "3": {"4": 4, "5": {"6": 6}}}', function(key, value){
+                console.log(key); // log the current property name, the last is "".
+                return value;     // return the unchanged property value.
+            });
+*/
+    
+            
+        </script>
+        
+        
+        
+        
+    </body>
+</html>

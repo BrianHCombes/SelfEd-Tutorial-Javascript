@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!-- 
+This JSON parse and stringify example(s) is with JSON array constructs
+
+//  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
+//  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
+
+
+-->
+
+<html>
+    <head>
+        <title>SelfEd - JSON Parse and Stringify - Part 2</title>
+        <link rel="SHORTCUT ICON" href="http://www.tarptiedown.com/ttd-website/ttd-website-pics-videos/instruction-images/teacherIcon.png">  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        
+        <script>
+            
+
+
+//            console.log("***************************************************************************************************************************************\n" + 
+//                        "VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV");                
+            // JSON Array
+            // Array name: < elements >
+            // This format came from the example at:
+            // http://www.w3schools.com/js/js_json_syntax.asp
+            // The brackets in this JSON syntax make it an array. 
+            // Note the name in the name:value pair is always the same for all
+            // elements in the array. This is allowed only in JSON array constructs.
+             
+            var j = '{"elements":[{"name":"value1"},{"name":"value2"},{"name":"value3"}]}';
+            var obj = JSON.parse(j);
+            console.log("object is: " + obj.elements[2].name);
+
+            // This bit below adds an element to the array. 
+            // Note the JSON file must be parsed to a Javascript 
+            // object before adding an element .
+            console.log(JSON.stringify(obj)); // Before adding element (must stringify for display)
+            var addElement = {"name":"value4"};
+            obj.elements.push(addElement);
+            console.log(JSON.stringify(obj)); // After adding element (must stringify for display)
+            
+//            console.log("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n" +
+//                        "**************************************************************************************************************************************");       
+      
+      
+            console.log("***************************************************************************************************************************************\n" + 
+                        "VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV");                
+
+            // JSON Array - Multiple Arrays
+            // Array name: < elements >
+            // This format came from the example at:
+            // http://www.w3schools.com/js/js_json_syntax.asp
+            // The brackets in this JSON syntax make it an array. And in this 
+            // case there are multiple arrays in this JSON construct.
+            // Note the name in the name:value pair is always the same for all
+            // elements in the array. This is allowed only in JSON array constructs.
+
+            var k = '{"elementsA":[{"name":"value1"},{"name":"value2"},{"name":"value3"}], "elementsB":[{"name":"value4"},{"name":"value5"},{"name":"value6"}]}';
+            var obj = JSON.parse(k);
+            console.log("object is: " + obj.elementsB[2].name);
+
+            // This bit below adds an element to each array. 
+            // Note the JSON file must be parsed to a Javascript 
+            // object before adding an element .
+            console.log(JSON.stringify(obj)); // Before adding element (must stringify for display)
+            var addElementA = {"name":"value3.1"};
+            var addElementB = {"name":"value6.1"};
+            obj.elementsA.push(addElementA);
+            obj.elementsB.push(addElementB);
+            console.log(JSON.stringify(obj)); // After adding element (must stringify for display)
+
+            console.log("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n" +
+                        "**************************************************************************************************************************************");       
+    
+            
+            
+            
+            // This format is modified from the example at:
+            // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
+            // It appears the function involved is called a < reviver >. The 
+            // nuance here is the each key must have a unique name, otherwise
+            // only the last key:value is displayed if all the keys have the 
+            // same name.
+            JSON.parse('{"name1":"Brian","name2":"Christine the Beautiful","name3":"Proper Lady"}', function(key,value){
+                console.log(key + " " + value);
+                // console.log(value);
+                return value;
+                
+            });
+            
+            // This format is from the modified from the example at:
+            // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
+            // It appears the function involved is called a < reviver >. The 
+            // nuance here is the each key must have a unique name, otherwise
+            // only the last key:value is displayed if all the keys have the 
+            // same name.
+            //console.log("***************************************************************************************************************************************\n" + 
+            //            "VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV");
+            var jsonText = '{"user" : [{"name":"mahesh", "password":"password1", "profession":"teacher", "id":1}], "user" : [{"name":"suresh", "password":"password2", "profession":"librarian", "id":2}]}';
+            JSON.parse(jsonText, function(key, value){
+                                console.log(key + " " + value); // log the current property name, the last is "".
+                                return value;     // return the unchanged property value.
+            });
+            
+            console.log("***************************************************************************************************************************************\n" + 
+                        "VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV");
+         
+            var obj = JSON.parse(jsonText);
+            var objStr = JSON.stringify(obj);
+            console.log("The parsed JSON object name is: " + objStr);
+            console.log("The parsed JSON object is: " + obj.user[0].password);
+            console.log("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n" +
+                        "**************************************************************************************************************************************");
+    
+            
+            JSON.parse('{"1": 1, "2": 2,"3": {"4": 4, "5": {"6": 6}}, "7":7}', function(key, value){
+                console.log(key); // log the current property name, the last is "".
+                return value;     // return the unchanged property value.
+            });
+    
+  
+/*   
+        {
+            "key1" : {
+                    "subkey1A" : "subvalue1A",
+                    "subkey1B" : "subvalue1B",
+                    "subkey1C" : "subvalue1C",
+                    "subkey1D" : "subvalue1D"
+           },
+            "key2" : {
+                    "subkey2A" : "subvalue2A",
+                    "subkey2B" : "subvalue2B",
+                    "subkey2C" : "subvalue2C",
+                    "subkey2D" : "subvalue2D"
+           },
+            "key3" : {
+                    "subkey3A" : "subvalue3A",
+                    "subkey3B" : "subvalue3B",
+                    "subkey3C" : "subvalue3C",
+                    "subkey3D" : "subvalue3D"
+           }
+        }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </script>
+        
+        
+        
+        
+    </body>
+</html>

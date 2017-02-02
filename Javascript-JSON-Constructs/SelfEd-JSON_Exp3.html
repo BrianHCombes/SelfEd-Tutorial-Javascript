@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- 
+This JSON parse and stringify example(s) uses the JSON string construct (file)
+provided by the TutorialsPoint tutorial at:
+                    
+                        https://www.tutorialspoint.com/nodejs/nodejs_restful_api.htm
+
+It has been copied, renamed, and re-contented to the file:
+
+                        SelfEd-JSON_Exp.json
+
+This file is part of this SelfEd project folder: 
+
+                        SelfEd-Javascript-JSON-Constructs
+
+//  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
+//  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
+
+
+-->
+
+<html>
+    <head>
+        <title>SelfEd - JSON Parse and Stringify - Part 4</title>
+        <link rel="SHORTCUT ICON" href="http://www.tarptiedown.com/ttd-website/ttd-website-pics-videos/instruction-images/teacherIcon.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <p>
+            The preparsed JSON string is assigned to variable < jsonString > exactly as follows:<br>
+            <span style="color:red;">var jsonString = '{"key1" : {"subkey1A":"subvalue1A", "subkey1B":"subvalue1B", "subkey1C":"subvalue1C", "subkey1D":"subvalue1D"},' +</span><br>
+            <span style="padding-left:107px; color:red;">'"key2" : {"subkey2A":"subvalue2A", "subkey2B":"subvalue2B", "subkey2C":"subvalue2C", "subkey2D":"subvalue2D"},' +</span><br>
+            <span style="padding-left:107px; color:red;">'"key3" : {"subkey3A":"subvalue3A", "subkey3B":"subvalue3B", "subkey3C":"subvalue3C", "subkey3D":"subvalue3D"}}';</span>
+        </p>
+        
+        <p><br><br>
+            Variable jsonString has been parsed.<br>
+            Thus, the value to the right should be < <span style="color:red;">subvalue3B</span> ><br> and is:<br> <span id="element1" style="font-size:24px; color:blue;"></span>
+        </p>
+        
+        <p><br><br>
+            Variable jsonString has been parsed.<br>
+            Thus The string to the right should be:<br>
+            < <span style="color:red;">{\"subkey2A\":\"subvalue2A\", \"subkey2B\":\"subvalue2B\", \"subkey2C\":\"subvalue2C\", \"subkey2D\":\"subvalue2D\"}</span> ><br> 
+            and is:<br>
+            <span id="element2" style="font-size:24px; color:blue;"></span>
+        </p>
+        
+        
+        
+    <script> 
+
+
+    // The variable < jsonString > (below) is a JSON string and is the storage 
+    // format when saved as a file or data component. It must be parsed to make
+    // it accessable as an object.
+/*     
+    var jsonString =    '{"objA":{"name1":"value1A", "name2":"value2A", "name3":"value3A"},' + 
+                        '"objB":{"name1":"value1B", "name2":"value2B", "name3":"value3B"},' +
+                        '"objC":{"name1":"value1C", "name2":"value2C", "name3":"value3C"}}';
+*/
+    
+    var jsonString =   '{"key1" : {"subkey1A":"subvalue1A", "subkey1B":"subvalue1B", "subkey1C":"subvalue1C", "subkey1D":"subvalue1D"},' +
+                        '"key2" : {"subkey2A":"subvalue2A", "subkey2B":"subvalue2B", "subkey2C":"subvalue2C", "subkey2D":"subvalue2D"},' +
+                        '"key3" : {"subkey3A":"subvalue3A", "subkey3B":"subvalue3B", "subkey3C":"subvalue3C", "subkey3D":"subvalue3D"}}';
+                
+                
+                
+                
+                
+
+    //console.log(JSON.stringify(jsonObj));
+    console.log("The entire (unparsed) JSON string is: " + jsonString);
+    
+    // Parsing the JSON string (below) makes it accessable as an object.
+    var jsonObj = JSON.parse(jsonString);
+    
+    // Once parsed it is now accessable with dot operators as demonstrated below.
+    console.log("The value to the right should be < subvalue3B > and is: " + jsonObj.key3.subkey3B +
+                "\nThe string to the right should be:" +
+                "{\"subkey2A\":\"subvalue2A\", \"subkey2B\":\"subvalue2B\", \"subkey2C\":\"subvalue2C\", \"subkey2D\":\"subvalue2D\"}" + 
+                " and is: " + JSON.stringify(jsonObj.key2));
+        
+        
+    document.getElementById("element1").innerHTML = jsonObj.key3.subkey3B;   
+    
+    document.getElementById("element2").innerHTML = JSON.stringify(jsonObj.key2);    
+    
+    
+/*     
+    // This is the original format of the file provided by the tutorial. I have
+    // re-contented the content but the layout is the same.
+    // The likely problem is the new line characters causing the readability
+    // problem. See varaible < jsonString > above. The file content has been
+    // relaid out so newline characters can play no role. All is working above. 
+    {
+        "key1" : {
+                "subkey1A" : "subvalue1A",
+                "subkey1B" : "subvalue1B",
+                "subkey1C" : "subvalue1C",
+                "subkey1D" : "subvalue1D"
+        },
+         "key2" : {
+                 "subkey2A" : "subvalue2A",
+                 "subkey2B" : "subvalue2B",
+                 "subkey2C" : "subvalue2C",
+                 "subkey2D" : "subvalue2D"
+        },
+         "key3" : {
+                 "subkey3A" : "subvalue3A",
+                 "subkey3B" : "subvalue3B",
+                 "subkey3C" : "subvalue3C",
+                 "subkey3D" : "subvalue3D"
+        }
+    }
+*/
+
+    
+    
+    </script>
+        
+    </body>
+</html>

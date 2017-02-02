@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- 
+This JSON parse and stringify example(s) is with JSON object constructs
+
+//  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
+//  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
+
+
+-->
+
+<html>
+    <head>
+        <title>SelfEd - JSON Parse and Stringify - Part 3</title>
+        <link rel="SHORTCUT ICON" href="http://www.tarptiedown.com/ttd-website/ttd-website-pics-videos/instruction-images/teacherIcon.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        
+        
+    <script> 
+
+
+    // The variable < jsonString > (below) is a JSON string and is the storage 
+    // format when saved as a file or data component. It must be parsed to make
+    // it accessable as an object.
+    var jsonString =    '{"objA":{"name1":"value1A", "name2":"value2A", "name3":"value3A"},' + 
+                        '"objB":{"name1":"value1B", "name2":"value2B", "name3":"value3B"},' +
+                        '"objC":{"name1":"value1C", "name2":"value2C", "name3":"value3C"}}';
+
+    //console.log(JSON.stringify(jsonObj));
+    console.log("The entire (unparsed) JSON string is: " + jsonString);
+    
+    // Parsing the JSON string (below) makes it accessable as an object.
+    var jsonObj = JSON.parse(jsonString);
+    
+    // Once parsed it is now accessable with dot operators as demonstrated below.
+    console.log("The value to the right should be < value3B > and is: " + jsonObj.objB.name3 +
+                "\nThe string to the right should be: {\"name1\":\"value1C\", \"name2\":\"value2C\", \"name3\":\"value3C\"}  and is: " + JSON.stringify(jsonObj.objC));
+    
+    
+    
+    </script>
+        
+    </body>
+</html>
