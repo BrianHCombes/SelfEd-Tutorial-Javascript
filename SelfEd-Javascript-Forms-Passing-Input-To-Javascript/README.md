@@ -15,12 +15,10 @@ Run in Plunker | Citation / Note
 ### :arrow_down_small: **Metadata**
 **SelfEd**          |  **Info** 
 ------------------- | ------------------------------------------------------------------------
-**Date:**           | 11/27/2016
-                    | 01/27/2017 (Update)
-**Archive_Title:**  | SelfEd-Javascript-Functions-Asynchronous-Calls
-**Objective:**      | To better understand asynchronous functions (calls) to better understand things like 'promises'
-**Catalyst 1:**     | Was reviewing node.js, namely these links:                                                                       **[https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm](https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm) ,   [SelfEd-Javascript-Functions-Closures](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures) ,  [SelfEd-NodeJS-Server-Creating-Of-B](https://github.com/BrianHCombes/SelfEd-Tutorials-NodeJS/tree/master/SelfEd-NodeJS-Server-Creating-Of-B)** and still felt unsatisfied about the underlying mechanism that makes a function asynchronous. Explanations seemed lacking and examples seemed overly complicated. But I have a hunch and am developing that hunch in this SelfEd. 
-**Catalyst 2:**     | Also was having trouble moving the RESTful call **_$http.get_** from a controller to a service method in Angular. 
+**Date:**           | 01/20/2017
+**Archive_Title:**  | SelfEd-Javascript-Forms-Passing-Input-To-Javascript
+**Objective:**      | To pass input from HTML directly to Javascript
+**Catalyst 1:**     | Been working on: **SelfEd-Angular-Directives-Custom-With-Link-Keyword** when I needed to confirm my approach to changing the data in a data object array. I simply wanted to enter a number and send it directly to Javascript. So I did a little side project and realized there's a trick to it. Enough of a trick to warrant a SelfEd.
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
