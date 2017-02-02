@@ -3,7 +3,7 @@
 #**Javascript - Anonymous Functions**
 Run in Plunker | Citation / Note
 ----------------------------------------------------------------------------|--------------------------------------------------------
-No SelfEd File Yet  | See Tutorial Links Section for a great Tutorial From Noah Stokes
+No SelfEd File Yet  | See **Tutorial Links** Section for a great Tutorial From Noah Stokes
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
