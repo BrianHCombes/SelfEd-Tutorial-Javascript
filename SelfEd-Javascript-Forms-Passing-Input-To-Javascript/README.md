@@ -12,7 +12,7 @@ Run in Plunker | Citation / Note
 **Date:**           | 01/20/2017
 **Archive_Title:**  | SelfEd-Javascript-Forms-Passing-Input-To-Javascript
 **Objective:**      | To pass input from HTML directly to Javascript
-**Catalyst:**       | While working on: **SelfEd-Angular-Directives-Custom-With-Link-Keyword** I needed to confirm my approach to changing the data in a data object array. I simply wanted to enter a number and send it directly to Javascript. So I did a little side project and realized there's a trick to it. Enough of a trick to warrant a SelfEd.
+**Catalyst:**       | While working on: [**SelfEd-Angular-Directives-Custom-With-Link-Keyword**](https://github.com/BrianHCombes/SelfEd-Tutorials-AngularJS/tree/master/SelfEd-Angular-Directives-Custom-With-Link-Keyword) I needed to confirm my approach to changing the data in a data object array. I simply wanted to enter a number and send it directly to Javascript. So I did a little side project and realized there's a trick to it. Enough of a trick to warrant a SelfEd.
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
