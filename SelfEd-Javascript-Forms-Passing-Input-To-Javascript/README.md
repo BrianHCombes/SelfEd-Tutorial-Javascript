@@ -1,11 +1,5 @@
-
-
-
-[Passing Form Input to Javascript](https://plnkr.co/edit/qiKNyvVaR3WHlb1n9Ixk?p=preview)
-
-# Template / Example Only
 ### **_My 'SelfEd' Code Diaries_**
-#**Javascript - Asynchronous Function Calls**
+#**Javascript - Passing Form Input Directly to Javascript**
 Run in Plunker | Citation / Note
 ----------------------------------------------------------------------------|--------------------------------------------------------
 [:small_blue_diamond:**passingInputToJS.html**](https://plnkr.co/edit/qiKNyvVaR3WHlb1n9Ixk?p=preview) | 
@@ -18,26 +12,16 @@ Run in Plunker | Citation / Note
 **Date:**           | 01/20/2017
 **Archive_Title:**  | SelfEd-Javascript-Forms-Passing-Input-To-Javascript
 **Objective:**      | To pass input from HTML directly to Javascript
-**Catalyst 1:**     | Been working on: **SelfEd-Angular-Directives-Custom-With-Link-Keyword** when I needed to confirm my approach to changing the data in a data object array. I simply wanted to enter a number and send it directly to Javascript. So I did a little side project and realized there's a trick to it. Enough of a trick to warrant a SelfEd.
+**Catalyst:**       | While working on: **SelfEd-Angular-Directives-Custom-With-Link-Keyword** I needed to confirm my approach to changing the data in a data object array. I simply wanted to enter a number and send it directly to Javascript. So I did a little side project and realized there's a trick to it. Enough of a trick to warrant a SelfEd.
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
 ### :arrow_down_small: **Tutorial Links**
 **Citation / Note**   | **Links learned from....**                                                
 ----------------------|-----------------------
-[AAA](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/SelfEd-Javascript-Functions-Asynchronous-Calls/References.md)  | Primary tutorial credit goes to: **Christopher Buecheler**. His tutorial that helped me the most is here:   http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
-                      | https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function
-                      | https://blog.ometer.com/2011/07/24/callbacks-synchronous-and-asynchronous/
-                      | http://callbackhell.com/ (Lots of good explanation in this one)
-                      | http://esbueno.noahstokes.com/post/77292606977/self-executing-anonymous-functions-or-how-to-write
-                      | http://stackoverflow.com/questions/6921895/synchronous-delay-in-code-execution
-                      | https://www.impressivewebs.com/callback-functions-javascript/
-                      | http://softwareengineering.stackexchange.com/questions/194580/how-does-javascript-code-become-asynchronous-when-using-callbacks
-                      | https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm
-                      | [SelfEd-Javascript-Functions-Closures](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures) 
-                      | [SelfEd-NodeJS-Server-Creating-Of-B](https://github.com/BrianHCombes/SelfEd-Tutorials-NodeJS/tree/master/SelfEd-NodeJS-Server-Creating-Of-B)
+                      | http://stackoverflow.com/questions/7716848/how-to-pass-a-form-input-value-into-a-javascript-function 
                       
-****
+:heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 ### :arrow_down_small: **Learn Process:**
 
   - 11/27/2016     
