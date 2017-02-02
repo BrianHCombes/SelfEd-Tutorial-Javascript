@@ -28,22 +28,59 @@ Run in Plunker | Citation / Note
                       | http://benalman.com/news/2010/03/theres-no-such-thing-as-a-json/   
                       | https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm
                       | [**SelfEd-NodeJS-RESTful-API**](https://github.com/BrianHCombes/SelfEd-Tutorials-NodeJS/tree/master/NodeJS-RESTful-API)
-                     
-                    
-                    
-                    
-                    
-                                       
-                      
-                      
-                      
-                      
-                      
-                      
-                      
                       
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
 ### :arrow_down_small: **Learn Process:**
+
+I have multiple working examples so far. There are different JSON formats that JSON.parse will work on but so far I haven't found the full scope of the variations that can be parsed. Refer to the SelfEd-JSON-Exp(#).html files in this SelfEd project folder.
+
+Here's the JSON file from the tutorial at: [**https://www.tutorialspoint.com/nodejs/nodejs_restful_api.htm**](https://www.tutorialspoint.com/nodejs/nodejs_restful_api.htm)
+
+    {
+       "user1" :    {
+                        "name" : "mahesh",
+                        "password" : "password1",
+                        "profession" : "teacher",
+                        "id": 1
+                    },
+       "user2" :    {
+                        "name" : "suresh",
+                        "password" : "password2",
+                        "profession" : "librarian",
+                        "id": 2
+                    },
+       "user3" :    {
+                        "name" : "ramesh",
+                        "password" : "password3",
+                        "profession" : "clerk",
+                        "id": 3
+                    }
+    }
+
+I'm gonna see if it will parse.
+
+But first I did SelfEd lessons on JSON arrays. Those are cool and  I got them  to work. Refer to:
+
+:small_blue_diamond:SelfEd-JSON_Exp1.html within SelfEd project    
+:small_blue_diamond:folder SelfEd-Javascript-JSON-Constructs 
+
+Happily, I believe they have given me good insight on JSON object collections which I believe is the case with this JSON file from the tutorial. Ironically I think the problem with the JSON file provided by the tutorial is tiered and thus has newline characters  scattered all over causing JSON format violations. The copied, renamed, and re-contented JSON file is:
+
+:small_blue_diamond:SelfEd-JSON_Exp.json
+
+It is the original layout provided. Let's find out, refer to:
+
+:small_blue_diamond:SelfEd-SelfEdJSON_Exp2.html within SelfEd project    
+:small_blue_diamond:folderSelfEd-Javascript-JSON-Constructs 
+        
+OK, in the < SelfEd-SelfEdJSON_Exp2.html > SelfEd I have managed to get a JSON string with an object based construct to be successfully parsed and accessed. So I will now take the JSON string file provided by the tutorial and massage it until it is parsable. Refer to:
+
+:small_blue_diamond:SelfEd-SelfEdJSON_Exp3.html within SelfEd project     
+:small_blue_diamond:folderSelfEd-Javascript-JSON-Constructs 
+
+for this effort. Have managed to get the file to read just fine once I set it up so no newline characters are involved.
+
+Whoa! I just added those newline characters back into the json file and it still works fine.
 
  
