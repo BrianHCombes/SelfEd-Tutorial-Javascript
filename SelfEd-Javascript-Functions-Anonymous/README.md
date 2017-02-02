@@ -26,5 +26,5 @@ No SelfEd File Yet  | See Tutorial Links Section for a great Tutorial From Noah 
 
 ### :arrow_down_small: **Learn Process:**
 
-Had a brief moment where I needed to brush up on anonymous functions. Found this great Noah Stokes tutorial (listed in above). He gets reasonably complex at the end of his tutorial. I plan to write some SelfEd code based on his example (hopefully soon). For now, his     tutorial is all that's needed.
+Had a brief moment where I needed to brush up on anonymous functions. Found this great Noah Stokes tutorial (listed in Tutorial Links). He gets reasonably complex at the end of his tutorial. I plan to write some SelfEd code based on his example (hopefully soon). For now, his tutorial is all that's needed.
  
