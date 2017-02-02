@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+This file is a member of SelfEd: < SelfEd-Javascript-Forms-Passing-Input-To-Javascript >
+-->
+<html>
+    <head>
+        <title>SelfEd - Passing Input Directly To Javascript</title>
+        <link rel="SHORTCUT ICON" href=support/teacher-icon.png>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <!--
+    http://stackoverflow.com/questions/7716848/how-to-pass-a-form-input-value-into-a-javascript-function
+    -->
+    
+<body>
+    <div>
+        <h1>Passing form input directly to Javascript</h1>
+
+        <h2 style="color:blue;">
+            Enter a value from 0 to 6 to change the "bool" property to 
+                <span style="color:red"> true </span>of the object at that index.
+        </h2>
+        <h3>See <span style="color:red">Code Block AAA</span> to see how input is passed.</h3> 
+
+        <!-- Code Block AAA -->
+        <form action="changeBool(value)">
+            Enter element index from 0 to 6
+            <input id="enterBool" type="number" name="Bool" value=0 style="font-size:30px;">
+            <input type="button" onclick="changeBool(document.getElementById('enterBool').value)" value="Submit Index"> 
+        </form>
+
+        <div id="showArray"></div>
+        <br><br>
+
+        <div id="showChange"></div>
+
+    </div>
+
+<script>
+        
+    var testArray = [
+        {key:"key1", bool:false},
+        {key:"key2", bool:false},
+        {key:"key3", bool:false},
+        {key:"key4", bool:false},
+        {key:"key5", bool:false},
+        {key:"key6", bool:false},
+        {key:"key7", bool:false}
+    ];
+
+    function changeBool(index){
+        index = parseInt(index);  
+
+        if(index <= 6){
+            for(i = 0; i < testArray.length; i++){
+
+                if(i == index){
+                    testArray[i].bool = true;
+                }    
+                else{
+                    testArray[i].bool = false;
+                }
+            }
+            showResult(index);
+        }
+        else{
+            document.getElementById("showChange").style.fontSize = "20px"; 
+            document.getElementById("showChange").innerHTML = 
+               "Entry of " + index + " is out of range, please try again";
+        }
+
+
+    };    
+
+    function showResult(index){
+        document.getElementById("showChange").style.color = "blue";  
+        document.getElementById("showChange").style.fontSize = "20px"; 
+        document.getElementById("showChange").innerHTML = 
+               "Change to <span style=\"color:green\";>true</span> applied to index: " + index;
+
+        for(i=0; i < testArray.length; i++){
+
+            if(i === index){
+                    //alert("when equal " + index);
+                    document.getElementById("showChange").innerHTML += 
+                    "<br>After assignment: testArray[" + i + "].bool is " + 
+                    "<span style=\"color:red;\">" + testArray[i].bool + "</span>"; 
+            }    
+            else{
+                    //alert("when not equal " + index);
+                    document.getElementById("showChange").innerHTML += 
+                    "<br>After assignment: testArray[" + i + "].bool is " + 
+                    "<span style=\"color:purple;\">" + testArray[i].bool + "</span>";
+            }    
+
+        }
+    }    
+</script>
+</body>
+</html>
