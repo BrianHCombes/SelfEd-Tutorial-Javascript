@@ -81,6 +81,7 @@ OK, in the < SelfEd-SelfEdJSON_Exp2.html > SelfEd I have managed to get a JSON s
 
 for this effort. Have managed to get the file to read just fine once I set it up so no newline characters are involved.
 
-Whoa! I just added those newline characters back into the json file and it still works fine.
+# Whoa!   
+### I just added those newline characters back into the json file and it still works fine.
 
  
