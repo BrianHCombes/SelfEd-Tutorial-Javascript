@@ -36,7 +36,8 @@ Run in Plunker | Citation / Note
                       | [SelfEd-Javascript-Functions-Closures](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures) 
                       | [SelfEd-NodeJS-Server-Creating-Of-B](https://github.com/BrianHCombes/SelfEd-Tutorials-NodeJS/tree/master/SelfEd-NodeJS-Server-Creating-Of-B)
                       
-****
+:heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
+
 ### :arrow_down_small: **Learn Process:**
 
   - 11/27/2016     
