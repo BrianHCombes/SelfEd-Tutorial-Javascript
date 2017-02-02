@@ -20,25 +20,20 @@ Run in Plunker | Citation / Note
 **Citation / Note**   | **Links learned from....**                                                
 ----------------------|-----------------------
 [AAB](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)  | https://www.tutorialspoint.com/nodejs/nodejs_restful_api.htm
-                      | https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function
-                      | https://blog.ometer.com/2011/07/24/callbacks-synchronous-and-asynchronous/
-                      | http://callbackhell.com/ (Lots of good explanation in this one)
-                      | http://esbueno.noahstokes.com/post/77292606977/self-executing-anonymous-functions-or-how-to-write
-                      | http://stackoverflow.com/questions/6921895/synchronous-delay-in-code-execution
-                      | https://www.impressivewebs.com/callback-functions-javascript/
-                      | http://softwareengineering.stackexchange.com/questions/194580/how-does-javascript-code-become-asynchronous-when-using-callbacks
+                      | http://www.w3schools.com/js/js_json_intro.asp
+                      | https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
+                      | https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
+                      | https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
+                      | http://stackoverflow.com/questions/4933217/print-json-parsed-object
+                      | http://benalman.com/news/2010/03/theres-no-such-thing-as-a-json/   
                       | https://www.tutorialspoint.com/nodejs/nodejs_callbacks_concept.htm
-                      | [SelfEd-Javascript-Functions-Closures](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/SelfEd-Javascript-Functions-Closures) 
-                      | [SelfEd-NodeJS-Server-Creating-Of-B](https://github.com/BrianHCombes/SelfEd-Tutorials-NodeJS/tree/master/SelfEd-NodeJS-Server-Creating-Of-B)
-                      
-SelfEd-NodeJS-RESTful-API
-                    https://www.tutorialspoint.com/nodejs/nodejs_restful_api.htm
-                    http://www.w3schools.com/js/js_json_intro.asp
-                    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
-                    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
-                    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
-                    http://stackoverflow.com/questions/4933217/print-json-parsed-object
-                    http://benalman.com/news/2010/03/theres-no-such-thing-as-a-json/                      
+                      | [**SelfEd-NodeJS-RESTful-API**](https://github.com/BrianHCombes/SelfEd-Tutorials-NodeJS/tree/master/NodeJS-RESTful-API)
+                     
+                    
+                    
+                    
+                    
+                                       
                       
                       
                       
