@@ -20,36 +20,47 @@ This file is part of this SelfEd project folder:
 -->
 
 <html>
-    <head>
-        <title>SelfEd - JSON Parse and Stringify - Part 4</title>
-        <link rel="SHORTCUT ICON" href="http://www.tarptiedown.com/ttd-website/ttd-website-pics-videos/instruction-images/teacherIcon.png">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <p>
-            The preparsed JSON string is assigned to variable < jsonString > exactly as follows:<br>
-            <span style="color:red;">var jsonString = '{"key1" : {"subkey1A":"subvalue1A", "subkey1B":"subvalue1B", "subkey1C":"subvalue1C", "subkey1D":"subvalue1D"},' +</span><br>
-            <span style="padding-left:107px; color:red;">'"key2" : {"subkey2A":"subvalue2A", "subkey2B":"subvalue2B", "subkey2C":"subvalue2C", "subkey2D":"subvalue2D"},' +</span><br>
-            <span style="padding-left:107px; color:red;">'"key3" : {"subkey3A":"subvalue3A", "subkey3B":"subvalue3B", "subkey3C":"subvalue3C", "subkey3D":"subvalue3D"}}';</span>
-        </p>
-        
-        <p><br><br>
-            Variable jsonString has been parsed.<br>
-            Thus, the value to the right should be < <span style="color:red;">subvalue3B</span> ><br> and is:<br> <span id="element1" style="font-size:24px; color:blue;"></span>
-        </p>
-        
-        <p><br><br>
-            Variable jsonString has been parsed.<br>
-            Thus The string to the right should be:<br>
-            < <span style="color:red;">{\"subkey2A\":\"subvalue2A\", \"subkey2B\":\"subvalue2B\", \"subkey2C\":\"subvalue2C\", \"subkey2D\":\"subvalue2D\"}</span> ><br> 
-            and is:<br>
-            <span id="element2" style="font-size:24px; color:blue;"></span>
-        </p>
+<head>
+    <title>SelfEd - JSON Parse and Stringify - Part 4</title>
+    <link rel="SHORTCUT ICON" href="http://www.tarptiedown.com/ttd-website/ttd-website-pics-videos/instruction-images/teacherIcon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+p
+{
+font-size:20px;    
+}
         
         
-        
-    <script> 
+</style>    
+    
+    
+</head>
+<body>
+    <p>
+        The preparsed JSON string is assigned to variable <span style="color:blue">jsonString</span> exactly as follows:<br>
+        <span style="color:red;">var jsonString = '{"key1" : {"subkey1A":"subvalue1A", "subkey1B":"subvalue1B", "subkey1C":"subvalue1C", "subkey1D":"subvalue1D"},' +</span><br>
+        <span style="padding-left:107px; color:red;">'"key2" : {"subkey2A":"subvalue2A", "subkey2B":"subvalue2B", "subkey2C":"subvalue2C", "subkey2D":"subvalue2D"},' +</span><br>
+        <span style="padding-left:107px; color:red;">'"key3" : {"subkey3A":"subvalue3A", "subkey3B":"subvalue3B", "subkey3C":"subvalue3C", "subkey3D":"subvalue3D"}}';</span>
+    </p>
+
+    <p><br><br>
+        Variable jsonString has been parsed.<br>
+        Thus, the value to the right should be <span style="color:red;">subvalue3B</span> ><br> and is:<br> <span id="element1" style="font-size:24px; color:blue;"></span>
+    </p>
+
+    <p><br><br>
+        Variable jsonString has been parsed.<br>
+        Thus The string to the right should be:<br>
+        <span style="color:red;">{\"subkey2A\":\"subvalue2A\", \"subkey2B\":\"subvalue2B\", \"subkey2C\":\"subvalue2C\", \"subkey2D\":\"subvalue2D\"}</span> ><br> 
+        and is:<br>
+        <span id="element2" style="font-size:24px; color:blue;"></span>
+    </p>
+
+
+
+<script> 
 
 
     // The variable < jsonString > (below) is a JSON string and is the storage 
@@ -118,7 +129,7 @@ This file is part of this SelfEd project folder:
 
     
     
-    </script>
-        
-    </body>
+</script>
+
+</body>
 </html>
