@@ -12,8 +12,7 @@ Run in Plunker | Citation / Note
 **Date:**           | 12/10/2016
 **Archive_Title:**  | SelfEd-Javascript-JSON-Constructs 
 **Objective:**      | To gain a deeper understanding of JSON formatting and parsing
-**Catalyst:**       | Was working on this Tutorial/ SelfEd when the example code would not work. The SelfEd project and tutotrial are:
-SelfEd-NodeJS-RESTful-API, [https://www.tutorialspoint.com/nodejs/nodejs_restful_api.htm](https://www.tutorialspoint.com/nodejs/nodejs_restful_api.htm) The example code is the < Add User > section involving the POST method would not work. Preliminary investigation suggests the JSON is not parsing properly.
+**Catalyst:**       | Was working on this Tutorial/ SelfEd when the example code would not work. The SelfEd project and tutotrial are: SelfEd-NodeJS-RESTful-API, [https://www.tutorialspoint.com/nodejs/nodejs_restful_api.htm](https://www.tutorialspoint.com/nodejs/nodejs_restful_api.htm) The example code is the < Add User > section involving the POST method would not work. Preliminary investigation suggests the JSON is not parsing properly.
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
