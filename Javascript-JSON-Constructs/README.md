@@ -62,7 +62,7 @@ I'm gonna see if it will parse.
 
 But first I did SelfEd lessons on JSON arrays. Those are cool and  I got them  to work. Refer to:
 
-:small_blue_diamond:SelfEd-JSON_Exp1.html within SelfEd project    
+:small_blue_diamond:[**SelfEd-JSON_Exp1.html**](https://plnkr.co/edit/lTWTA87SgLbInWgYNcHz?p=preview)    
 :small_blue_diamond:folder SelfEd-Javascript-JSON-Constructs 
 
 Happily, I believe they have given me good insight on JSON object collections which I believe is the case with this JSON file from the tutorial. Ironically I think the problem with the JSON file provided by the tutorial is tiered and thus has newline characters  scattered all over causing JSON format violations. The copied, renamed, and re-contented JSON file is:
