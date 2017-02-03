@@ -75,12 +75,11 @@ It is the original layout style of the TutorialsPoint tutorial provided but re-c
 :small_blue_diamond:[**SelfEd-JSON_Exp2.html**](https://plnkr.co/edit/TdMZTCxHoNe4x07WFEMP?p=preview)    
 
         
-OK, in the < SelfEd-SelfEdJSON_Exp2.html > SelfEd I have managed to get a JSON string with an object based construct to be successfully parsed and accessed. So I will now take the JSON string file provided by the tutorial and massage it until it is parsable. Refer to:
+OK, in the **SelfEd-SelfEdJSON_Exp2.html** SelfEd I have managed to get a JSON string with an object based construct to be successfully parsed and accessed. So I will now take the JSON string file provided by the tutorial and massage it until it is parsable. Refer to:
 
-:small_blue_diamond:SelfEd-SelfEdJSON_Exp3.html within SelfEd project     
-:small_blue_diamond:folderSelfEd-Javascript-JSON-Constructs 
+:small_blue_diamond:[**SelfEd-SelfEdJSON_Exp3.html**](https://plnkr.co/edit/P4M4mXsNYzWiJ20Ma4SV?p=preview)
 
-for this effort. Have managed to get the file to read just fine once I set it up so no newline characters are involved.
+for this effort. I Have managed to get the file to read just fine once I set it up so no newline characters are involved.
 
 # Whoa!   
 ### I just added those newline characters back into the json file and it still works fine.
