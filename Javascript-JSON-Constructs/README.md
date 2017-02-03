@@ -62,23 +62,22 @@ I'm gonna see if it will parse.
 
 To start I did my first SelfEd lesson on **JSON arrays.** JSON arrays are cool and  I got them  to work. To see four JSON array variations get parsed refer to:
 
-:memo:Refer to comments in this file for details   
 :small_blue_diamond:[**SelfEd-JSON_Exp1.html** (:memo:See comments in this file for details)](https://plnkr.co/edit/lTWTA87SgLbInWgYNcHz?p=preview)    
 
 
 
 Happily, I believe they have given me good insight on JSON object collections which I believe is the case with this JSON file from the tutorial. Ironically I think the problem with the JSON file provided by the tutorial is tiered and thus has newline characters  scattered all over causing JSON format violations. The copied, renamed, and re-contented JSON file is:
 
-:small_blue_diamond:[**SelfEd-JSON_Exp.json**](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Javascript-JSON-Constructs/SelfEd-JSON_Exp.json)
+:small_blue_diamond:[**SelfEd-JSON_Exp.json** ](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Javascript-JSON-Constructs/SelfEd-JSON_Exp.json)
 
 It is the original layout style of the TutorialsPoint tutorial provided but re-contented. Let's find out if it'll parse, refer to:
 
-:small_blue_diamond:[**SelfEd-JSON_Exp2.html**](https://plnkr.co/edit/TdMZTCxHoNe4x07WFEMP?p=preview)    
+:small_blue_diamond:[**SelfEd-JSON_Exp2.html** (:memo:See comments in this file for details)](https://plnkr.co/edit/TdMZTCxHoNe4x07WFEMP?p=preview)    
 
         
 OK, in the **SelfEd-SelfEdJSON_Exp2.html** SelfEd I have managed to get a JSON string with an object based construct to be successfully parsed and accessed. So I will now take the JSON string file provided by the tutorial and massage it until it is parsable. Refer to:
 
-:small_blue_diamond:[**SelfEd-JSON_Exp3.html**](https://plnkr.co/edit/P4M4mXsNYzWiJ20Ma4SV?p=preview)
+:small_blue_diamond:[**SelfEd-JSON_Exp3.html** (:memo:See comments in this file for details)](https://plnkr.co/edit/P4M4mXsNYzWiJ20Ma4SV?p=preview)
 
 for this effort. I Have managed to get the file to read just fine once I set it up so no newline characters are involved.
 
