@@ -60,10 +60,11 @@ Here's the JSON file from the tutorial at: [**https://www.tutorialspoint.com/nod
 
 I'm gonna see if it will parse.
 
-But first I did SelfEd lessons on JSON arrays. Those are cool and  I got them  to work. Refer to:
+To start I did my first SelfEd lesson on **JSON arrays.** JSON arrays are cool and  I got them  to work. To see four JSON array variations get parsed refer to:
 
 :small_blue_diamond:[**SelfEd-JSON_Exp1.html**](https://plnkr.co/edit/lTWTA87SgLbInWgYNcHz?p=preview)    
-:small_blue_diamond:folder SelfEd-Javascript-JSON-Constructs 
+
+
 
 Happily, I believe they have given me good insight on JSON object collections which I believe is the case with this JSON file from the tutorial. Ironically I think the problem with the JSON file provided by the tutorial is tiered and thus has newline characters  scattered all over causing JSON format violations. The copied, renamed, and re-contented JSON file is:
 
