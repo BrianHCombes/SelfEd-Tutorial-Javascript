@@ -62,7 +62,8 @@ I'm gonna see if it will parse.
 
 To start I did my first SelfEd lesson on **JSON arrays.** JSON arrays are cool and  I got them  to work. To see four JSON array variations get parsed refer to:
 
-:small_blue_diamond:[**SelfEd-JSON_Exp1.html**](https://plnkr.co/edit/lTWTA87SgLbInWgYNcHz?p=preview)    
+:memo:Refer to comments in this file for details   
+:small_blue_diamond:[**SelfEd-JSON_Exp1.html** (:memo:See comments in this file for details)](https://plnkr.co/edit/lTWTA87SgLbInWgYNcHz?p=preview)    
 
 
 
