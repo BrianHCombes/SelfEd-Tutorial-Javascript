@@ -5,22 +5,38 @@ This JSON parse and stringify example(s) is with JSON object constructs
 //  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
 //  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
 
-
 -->
 
 <html>
-    <head>
-        <title>SelfEd - JSON Parse and Stringify - Part 3</title>
-        <link rel="SHORTCUT ICON" href="http://www.tarptiedown.com/ttd-website/ttd-website-pics-videos/instruction-images/teacherIcon.png">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-        
-        
-    <script> 
+<head>
+    <title>SelfEd - JSON Parse and Stringify - Part 3</title>
+    <link rel="SHORTCUT ICON" href="http://www.tarptiedown.com/ttd-website/ttd-website-pics-videos/instruction-images/teacherIcon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+div
+{
+font-size:20px;    
+}
 
+
+</style>    
+    
+</head>
+<body>
+    <div>This SelfEd about JSON Constructs is file: JSON_Exp2.html</div><br>
+    <div>All output is to the console.</div><br><br>
+    <div>   If you're viewing this from Plunker:<br><br>
+            right click this space,<br><br>
+            select "inspect",<br><br>
+            then click "console" along the top.<br><br>
+    </div>    
+    <div style="color:red;">
+            There are several parsable JSON formats in this example.
+    </div>
+
+
+<script> 
 
     // The variable < jsonString > (below) is a JSON string and is the storage 
     // format when saved as a file or data component. It must be parsed to make
@@ -39,9 +55,6 @@ This JSON parse and stringify example(s) is with JSON object constructs
     console.log("The value to the right should be < value3B > and is: " + jsonObj.objB.name3 +
                 "\nThe string to the right should be: {\"name1\":\"value1C\", \"name2\":\"value2C\", \"name3\":\"value3C\"}  and is: " + JSON.stringify(jsonObj.objC));
     
-    
-    
-    </script>
-        
-    </body>
+</script>
+</body>
 </html>
