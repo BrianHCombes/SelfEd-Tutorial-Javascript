@@ -81,6 +81,6 @@ OK, in the **SelfEd-SelfEdJSON_Exp2.html** SelfEd I have managed to get a JSON s
 
 for this effort. I Have managed to get the file to read just fine once I set it up so no newline characters are involved.
 
-# :red_circle:Whoa! I just added those newline characters back into the json file and it still works fine. What ever the original cause it went away.
+# :red_circle:Whoa! I just added those newline characters back into the json file and it still works fine. I'm sure the problem was just me. That;'s why I do these SelfEds.
 
  
