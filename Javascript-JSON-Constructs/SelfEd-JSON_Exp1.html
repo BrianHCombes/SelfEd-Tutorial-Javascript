@@ -39,10 +39,10 @@ This JSON parse and stringify example(s) is with JSON array constructs
             // This bit below adds an element to the array. 
             // Note the JSON file must be parsed to a Javascript 
             // object before adding an element .
-            console.log(JSON.stringify(obj)); // Before adding element (must stringify for display)
+            console.log(JSON.stringify(obj)); // Before adding element (obj is stringified for console.log)
             var addElement = {"name":"value4"};
             obj.elements.push(addElement);
-            console.log(JSON.stringify(obj)); // After adding element (must stringify for display)
+            console.log(JSON.stringify(obj)); // After adding element (obj is stringified for console.log)
             
 //            console.log("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n" +
 //                        "**************************************************************************************************************************************");       
