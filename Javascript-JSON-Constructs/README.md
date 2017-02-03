@@ -72,8 +72,8 @@ Happily, I believe they have given me good insight on JSON object collections wh
 
 It is the original layout style of the TutorialsPoint tutorial provided but re-contented. Let's find out if it'll parse, refer to:
 
-:small_blue_diamond:SelfEd-SelfEdJSON_Exp2.html within SelfEd project    
-:small_blue_diamond:folderSelfEd-Javascript-JSON-Constructs 
+:small_blue_diamond:[**SelfEd-JSON_Exp2.html**](https://plnkr.co/edit/TdMZTCxHoNe4x07WFEMP?p=preview)    
+
         
 OK, in the < SelfEd-SelfEdJSON_Exp2.html > SelfEd I have managed to get a JSON string with an object based construct to be successfully parsed and accessed. So I will now take the JSON string file provided by the tutorial and massage it until it is parsable. Refer to:
 
