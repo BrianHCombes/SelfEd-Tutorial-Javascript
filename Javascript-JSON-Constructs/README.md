@@ -68,9 +68,9 @@ To start I did my first SelfEd lesson on **JSON arrays.** JSON arrays are cool a
 
 Happily, I believe they have given me good insight on JSON object collections which I believe is the case with this JSON file from the tutorial. Ironically I think the problem with the JSON file provided by the tutorial is tiered and thus has newline characters  scattered all over causing JSON format violations. The copied, renamed, and re-contented JSON file is:
 
-:small_blue_diamond:[SelfEd-JSON_Exp.json](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Javascript-JSON-Constructs/SelfEd-JSON_Exp.json)
+:small_blue_diamond:[**SelfEd-JSON_Exp.json**](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Javascript-JSON-Constructs/SelfEd-JSON_Exp.json)
 
-It is the original layout provided. Let's find out, refer to:
+It is the original layout style of the TutorialsPoint tutorial provided but re-contented. Let's find out if it'll parse, refer to:
 
 :small_blue_diamond:SelfEd-SelfEdJSON_Exp2.html within SelfEd project    
 :small_blue_diamond:folderSelfEd-Javascript-JSON-Constructs 
