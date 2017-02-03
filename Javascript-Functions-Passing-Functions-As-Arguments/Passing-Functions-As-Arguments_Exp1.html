@@ -1,16 +1,7 @@
 <!DOCTYPE html>
 <!--
+This file is a member of SelfEd: < SelfEd-Javascript-Functions-Passing-Functions-As-Arguments >
 SelfEd - Passing and Receiving functions as parameters of a function
-
-//  http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/
-//  http://edumaven.com/javascript-programming/passing-function-as-parameter
-//  http://javascriptissexy.com/understand-javascript-closures-with-ease/
-//  https://www.smashingmagazine.com/2014/07/dont-be-scared-of-functional-programming/
-//  http://esbueno.noahstokes.com/post/77292606977/self-executing-anonymous-functions-or-how-to-write (This seems a nice late find)
-//  https://www.impressivewebs.com/callback-functions-javascript/  (This has a good example)
-//  https://blog.ometer.com/2011/07/24/callbacks-synchronous-and-asynchronous/
-//  http://callbackhell.com/ (Lots of good explanation in this one)
-//  http://edumaven.com/javascript-programming/passing-function-as-parameter (This is a good example)
 -->
 <html>
 <head>
@@ -38,34 +29,52 @@ cursor: pointer;
     
 </head>
 <body>
-    <div style="font-size:30px; color:darkorchid">Self-Ed - Passing Functions as Arguments<br>
-                    These are simple examples of passing and receiving functions as arguments.<br>
+    <div style="font-size:26px; color:darkorchid"><b>
+        Self-Ed - Passing Functions as Arguments<br>
+        These are simple examples of passing and 
+        receiving functions as arguments.<br></b>
     </div>
+    <br><br>
+    
+    <div id="receive"></div>
+    <button onclick="receiveFunction()">
+        Refer to Code Block AAA<br>Click to receive a function from a
+        function, then invoke that received function.
+    </button>
     <br><br><br>
-    <div id="receive">See anything?</div>
-    <button onclick="receiveFunction()">Refer to code block AAA<br>Click to receive a function from a function, then invoke that received function</button>
     
+    <div id="pass"></div>
+    <button onclick="passFunction()">
+        Refer to Code Block BBB<br>Click to pass a function from a 
+        function, then invoke that passed function.
+    </button>
+    <br><br><br>
     
-    <br><br><br><br><br><br>
-    <div id="pass">See anything?</div>
-    <button onclick="passFunction()">Refer to code block BBB<br>Click to pass a function from a function, then invoke that passed function</button>
+    <div id="receiveWparameter"></div>
+    <button onclick="receiveFunctionWithParameter(20)"> 
+        Refer to Code Block CCC<br>Click to receive a function from a 
+        function, then invoke that received<br>function of which a
+        parameter was passed to it.
+    </button>
+    <br><br><br>
     
+    <div id="closure"></div>
+    <button onclick="closureFunction(), scrollBy(0,200);">
+        Refer to code block DDD<br> 
+        Click to demonstrate function closure. When clicked, an outer function is<br>
+        called with an inner function that is then defined (as a variable would be)<br>
+        but not invoked. Once defined the outer function completes which<br>
+        essentially closes the inner function. The inner function remains intact<br>
+        as a variable. The button that appears will then invoke the inner function.
+    </button>
+    <br>
     
-    <br><br><br><br><br><br>
-    <div id="receiveWparameter">If you see this there's a problem</div>
-    <button onclick="receiveFunctionWithParameter(20)"> Refer to code block CCC<br>
-                                                        Click to receive a function from a function, then invoke that received function of which a
-                                                        parameter was passed to it</button>
-    
-    
-    <br><br><br><br><br><br>
-    <div id="closure">If you see this there's a problem</div>
-    <button onclick="closureFunction()">Refer to code block DDD<br>
-                                        Click to demonstrate function closure<br>
-                                        When clicked, an outer function is called with an inner function that is then defined (as a variable would be) but not invoked.<br>
-                                        Once defined the outer function completes which essentially closes the inner function. The inner function remains intact as a variable.<br>
-                                        The button that appears will then invoke the inner function.</button><br>
-    <button id="btn2" onclick="displayClosedFunction()" style="display:none; font-weight:bold; font-size:30px;">Click to display closed function</button><br>
+    <button id="btn2" 
+            onclick="displayClosedFunction()" 
+            style="display:none; font-weight:bold; font-size:30px;">
+        Click to display closed function
+    </button>
+    <br>
     
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -74,10 +83,11 @@ cursor: pointer;
 
 /******************************************************************************/
 // Code Block AAA
-    document.getElementById("receive").innerHTML =  "<span style=\"font-size:24px; color:red\">" +
-                                                    "This is a sentence before the received function. Once received, " +
-                                                    "the function is then invoked and a different sentence should replace " +
-                                                    "this sentence</span>";
+    document.getElementById("receive").innerHTML =  
+            "<span style=\"font-size:24px; color:red\">" +
+            "This is a sentence before the received function. Once received,<br> " +
+            "the function is then invoked and a different sentence should<br>" +
+            "replace this sentence.</span>";
 
     function receiveFunction(){
         //alert("The receive function has been called");
@@ -87,24 +97,31 @@ cursor: pointer;
 
     function returnFunction(){
         return function(){
-            varC = 20*20;
-            document.getElementById("receive").innerHTML = "<span style=\"font-size:24px; color:blue\">" +
-                                                           "This sentence is the result of a function received from a function and then invoked</span>";
+            
+            document.getElementById("receive").innerHTML = 
+                "<span style=\"font-size:24px; color:blue\"><br>" +
+                "This sentence is the result of a function " +
+                "<span style=\"color:red;\"><u>received</u></span> from<br>" +
+                "a function and then invoked</span>";
         };
     }    
     
 /******************************************************************************/
 // Code Block BBB
-    document.getElementById("pass").innerHTML =     "<span style=\"font-size:24px; color:red\">" +
-                                                    "This is a sentence before the passed function. Once the function is " +
-                                                    "passed it is then invoked and a different sentence should replace " +
-                                                    "this sentence</span>";                                                   
+    document.getElementById("pass").innerHTML =    
+            "<span style=\"font-size:24px; color:red\">" +
+            "This is a sentence before the passed function. Once the function is<br>" +
+            "passed it is then invoked and a different sentence should replace<br>" +
+            "this sentence.</span>";                                                   
 
     function passFunction(){
         
         var passed = function(){
-        document.getElementById("pass").innerHTML = "<span style=\"font-size:24px; color:blue\">" +
-                                                    "This sentence is the result of a function passed to a function and then invoked.</span>";              
+        document.getElementById("pass").innerHTML = 
+                "<span style=\"font-size:24px; color:blue\"><br>" +
+                "This sentence is the result of a function " +
+                "<span style=\"color:red;\"><u>passed</u></span> " +
+                "to a function<br>and then invoked.</span>";              
         };
         passedFunction(passed);
     }                                                   
@@ -113,16 +130,14 @@ cursor: pointer;
         passed();                           // This is the passed function which is invoked here because of the ()
     };
 
-
-
-
 /******************************************************************************/
 // Code Block CCC
-    document.getElementById("receiveWparameter").innerHTML =  "<span style=\"font-size:24px; color:red\">" +
-                                                    "This is a sentence before the received function (with a parameter) " +
-                                                    "from a function is called. Once received, " +
-                                                    "the function is then invoked and a different sentence should replace " +
-                                                    "this sentence</span>";
+    document.getElementById("receiveWparameter").innerHTML =  
+            "<span style=\"font-size:24px; color:red\">" +
+            "This is a sentence before the received function (with a parameter)<br>" +
+            "from a function is called. Once received, the function is then " +
+            "invoked<br>and a different sentence should replace " +
+            "this sentence.</span>";
 
     function receiveFunctionWithParameter(num){
         var returned = returnFunctionWparameter(num);   // function returnFunctionWparameter NOT invoked here.
@@ -131,25 +146,26 @@ cursor: pointer;
 
     function returnFunctionWparameter(varA){
         return function(){                              // This is the returned function
-            varC = 20*20*varA;
-            document.getElementById("receiveWparameter").innerHTML = "<span style=\"font-size:24px; color:blue\">" +
-                                                           "This sentence is the result of a function received from a function and then invoked " + 
-                                                           "The following value is calculated by first passing an integer to the<br>" +
-                                                           "function that will then be returned (the function that is) and be invoked " +
-                                                           "and I assume the calculation will be done once invoked: You should see the " +
-                                                           "value of 8000 in red: </span>" + varC;
+            varC = 400*varA;
+            document.getElementById("receiveWparameter").innerHTML = 
+                "<span style=\"font-size:24px; color:blue\">" +
+                "This sentence is the result of a function received from a function<br>" +
+                "and then invoked. The following value is calculated by first passing<br>" +
+                "an integer value of 20 to the function and then the function is returned.<br>" +
+                "The returned function is then invoked and the value of 20 is multiplied<br>" +
+                "by 400 and should show 8000 here in red: </span>" + varC;
             document.getElementById("receiveWparameter").style.fontSize = "24px";  
             document.getElementById("receiveWparameter").style.color = "red";                                                          
                                                 
         };
     }   
 
-
 /******************************************************************************/
-
-    document.getElementById("closure").innerHTML =  "<span style=\"font-size:24px; color:red\">" +
-                                                    "Click here to invoke and then \"close the the invoked\" function. " +
-                                                    "To demonstrate funcion closure.";
+// Code Block DDD
+    document.getElementById("closure").innerHTML =
+            "<span style=\"font-size:24px; color:red\">" +
+            "Click here to invoke and then \"close the the invoked\" function<br> " +
+            "To demonstrate funcion closure.";
     
     var closedFunction;
     
@@ -160,11 +176,11 @@ cursor: pointer;
         document.getElementById("btn2").style.display = "inline";
         // closedFunction is declared as a global variable (above)for visibility purposes.
         closedFunction = function(){
-            document.getElementById("closure").innerHTML =  "<span style=\"font-size:24px; color:blue\">" +
-                                                            "This is the sentence from the \'closed\' inner function. " +
-                                                            "This function is treated as a variable and invoked by adding \'()\' at the end.";
+            document.getElementById("closure").innerHTML =  
+                "<span style=\"font-size:24px; color:blue\">" +
+                "This is the sentence from the \'closed\' inner function. " +
+                "This function<br>is treated as a variable and invoked by adding \'()\' at the end.";
         };
-      
     }
     
     //var closedFunction = closureFunction();
@@ -174,19 +190,6 @@ cursor: pointer;
         closedFunction();
         
     }
-
-   
-    
-
-
-
-
-
-
-
-
-
-
 </script>    
 </body>
 </html>
