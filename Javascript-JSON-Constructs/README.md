@@ -2,7 +2,9 @@
 #**Javascript - JSON-Constructs**
 Run in Plunker | Citation / Note
 ----------------------------------------------------------------------------|--------------------------------------------------------
-[:small_blue_diamond:**SelfEd-JSON_Exp3**](https://plnkr.co/edit/Iob3N0qgS9iGW2fiwTpA?p=preview) | [Citation AAB] (https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)
+[:small_blue_diamond:**SelfEd-JSON_Exp1.html** (:memo:See comments in this file for details)](https://plnkr.co/edit/lTWTA87SgLbInWgYNcHz?p=preview) | [Citation AAB] (https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)
+[:small_blue_diamond:**SelfEd-JSON_Exp2.html** (:memo:See comments in this file for details)](https://plnkr.co/edit/TdMZTCxHoNe4x07WFEMP?p=preview) | [Citation AAB] (https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)
+[:small_blue_diamond:**SelfEd-JSON_Exp3.html** (:memo:See comments in this file for details)](https://plnkr.co/edit/Iob3N0qgS9iGW2fiwTpA?p=preview) | [Citation AAB] (https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
@@ -63,8 +65,6 @@ I'm gonna see if it will parse.
 To start I did my first SelfEd lesson on **JSON arrays.** JSON arrays are cool and  I got them  to work. To see four JSON array variations get parsed refer to:
 
 :small_blue_diamond:[**SelfEd-JSON_Exp1.html** (:memo:See comments in this file for details)](https://plnkr.co/edit/lTWTA87SgLbInWgYNcHz?p=preview)    
-
-
 
 Happily, I believe they have given me good insight on JSON object collections which I believe is the case with this JSON file from the tutorial. Ironically I think the problem with the JSON file provided by the tutorial is tiered and thus has newline characters  scattered all over causing JSON format violations. The copied, renamed, and re-contented JSON file is:
 
