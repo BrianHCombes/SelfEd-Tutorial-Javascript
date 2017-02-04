@@ -23,10 +23,10 @@ Run in Plunker | Citation / Note
                       | http://edumaven.com/javascript-programming/passing-function-as-parameter (This is a good example)
                       | http://javascriptissexy.com/understand-javascript-closures-with-ease/
                       | https://www.smashingmagazine.com/2014/07/dont-be-scared-of-functional-programming/
-                      | http://esbueno.noahstokes.com/post/77292606977/self-executing-anonymous-functions-or-how-to-write (This seems a nice late find)
+                      | http://esbueno.noahstokes.com/post/77292606977/self-executing-anonymous-functions-or-how-to-write 
                       | https://www.impressivewebs.com/callback-functions-javascript/  (This has a good example)
                       | https://blog.ometer.com/2011/07/24/callbacks-synchronous-and-asynchronous/
-                      |http://callbackhell.com/ (Lots of good explanation in this one)
+                      | http://callbackhell.com/ (Lots of good explanation in this one)
                       
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
