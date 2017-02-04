@@ -28,6 +28,7 @@ Run in Plunker | Citation / Note
                       | https://blog.ometer.com/2011/07/24/callbacks-synchronous-and-asynchronous/
                       | http://callbackhell.com/ (Lots of good explanation in this one)
                       | [SelfEd-Javascript-Functions-Asynchronous-Calls](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/Javascript-Functions-Asynchronous-Calls)
+                      | [SelfEd-Javascript-Functions-Closures](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/Javascript-Functions-Closures)
                       
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
