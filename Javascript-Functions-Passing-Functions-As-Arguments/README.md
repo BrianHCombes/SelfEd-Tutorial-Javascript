@@ -32,6 +32,6 @@ Run in Plunker | Citation / Note
 
 ### :arrow_down_small: **Learn Process:**
 
-The references I refer to are a mix of disciplines
+The references I refer to are a mix of disciplines. Otherwise run the code in pluker for the instructional content
 
  
