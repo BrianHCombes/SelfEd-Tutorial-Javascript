@@ -2,7 +2,7 @@
 #**Javascript - Passing-Functions-As-Arguments**
 Run in Plunker | Citation / Note
 ----------------------------------------------------------------------------|--------------------------------------------------------
-[:small_blue_diamond:**callback_Exp0.html**](https://plnkr.co/edit/9kyuMzqQtq3Q3MP8mjGC?p=preview) | 
+[:small_blue_diamond:**Passing-Functions-As-Arguments_Exp1.html**](https://plnkr.co/edit/AbcNMXrAyltvVmsGmoct?p=preview) | 
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
@@ -12,7 +12,7 @@ Run in Plunker | Citation / Note
 **Date:**           | 11/14/2016
 **Archive_Title:**  | SelfEd-Javascript-Functions-Passing-Functions-As-Arguments
 **Objective:**      | To familiarize with the passing of functions in various forms.
-**Catalyst 1:**     | While working with the MEAN stack I encountered a situation requiring me to better understand passing     functions as arguments of functions.
+**Catalyst:**     | While working with MEAN stack I encountered a situation requiring me to better understand passing functions as arguments
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
