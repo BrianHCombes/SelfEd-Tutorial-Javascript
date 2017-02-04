@@ -83,9 +83,9 @@ cursor: pointer;
 
 /******************************************************************************/
 // Code Block AAA
-    document.getElementById("receive").innerHTML =  
+   document.getElementById("receive").innerHTML =  
             "<span style=\"font-size:24px; color:red\">" +
-            "This is a sentence before the received function. Once received,<br> " +
+            "This is a sentence before the returned function. Once returned,<br> " +
             "the function is then invoked and a different sentence should<br>" +
             "replace this sentence.</span>";
 
@@ -101,11 +101,10 @@ cursor: pointer;
             document.getElementById("receive").innerHTML = 
                 "<span style=\"font-size:24px; color:blue\"><br>" +
                 "This sentence is the result of a function " +
-                "<span style=\"color:red;\"><u>received</u></span> from<br>" +
+                "<span style=\"color:red;\"><u>returned</u></span> from<br>" +
                 "a function and then invoked</span>";
         };
     }    
-    
 /******************************************************************************/
 // Code Block BBB
     document.getElementById("pass").innerHTML =    
