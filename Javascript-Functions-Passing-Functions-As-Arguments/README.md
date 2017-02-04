@@ -32,6 +32,6 @@ Run in Plunker | Citation / Note
 
 ### :arrow_down_small: **Learn Process:**
 
-The references I refer to are a mix of disciplines. Otherwise run the code in pluker for the instructional content
+The links I refer to are a mix of disciplines but all make mention of passing functions as arguments. In fact the nature of a callback function is the passing of a function Otherwise run the code in pluker for the instructional content
 
  
