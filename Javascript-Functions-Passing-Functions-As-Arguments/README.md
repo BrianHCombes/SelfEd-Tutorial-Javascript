@@ -27,11 +27,12 @@ Run in Plunker | Citation / Note
                       | https://www.impressivewebs.com/callback-functions-javascript/  (This has a good example)
                       | https://blog.ometer.com/2011/07/24/callbacks-synchronous-and-asynchronous/
                       | http://callbackhell.com/ (Lots of good explanation in this one)
+                      | [SelfEd-Javascript-Functions-Asynchronous-Calls](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/tree/master/Javascript-Functions-Asynchronous-Calls)
                       
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
 ### :arrow_down_small: **Learn Process:**
 
-The links I refer to are a mix of disciplines but all make mention of passing functions as arguments. In fact the nature of a callback function is the passing of a function Otherwise run the code in pluker for the instructional content
+The links I refer to are a mix of disciplines but all make mention about passing functions as arguments. In fact the nature of a callback function (asynchronous function) includes the passing of a function. Run the code in pluker for the instructional content
 
  
