@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!--
+This file is a member of SelfEd: < SelfEd-Javascript-Functions-Calling-With-Dot-Operator >
+-->
+<html>
+<head>
+
+    <title>SelfEd – Calling Functions with Dot Operator</title>
+    <link rel="SHORTCUT ICON" href=http://www.tarptiedown.com/ttd-website/ttd-website-pics-videos/instruction-images/teacherIcon.png>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+button
+{
+color:blue;
+font-size:18px;
+text-align:left; 
+border:2px solid black;
+border-radius:15px;
+cursor:pointer;
+padding:10px;
+}
+
+#showResponse
+{
+width:700px; 
+height:100px; 
+background-color:yellow; 
+border:2px solid black; 
+border-radius:10px; 
+text-align:center; 
+font-size:20px; 
+font-weight:bold;"    
+}
+</style>
+
+</head>
+<body>
+    <div>
+        <div style="font-size:40px;">Calling a function via the dot operator</div>
+        
+        <button onclick="primeFunc(1)">
+            <b><u>Click Me:</u></b><br> 
+            To invoke a <span style="color:red;">primary</span> 
+            function which calls a <span style="color:red;">sub-primary</span>
+            function. The sub-primary<br> function calls a specific nested
+            function via a dot operator. The nested function<br> called is
+            called <span style="color:red;">response1</span>. 
+            The call looks like this in the code<br> 
+            <span style="color:red;">subPrimeFunc().response1()</span>. 
+            See <span style="color:red;">Code Block AAA</span>. 
+            See <span style="color:red;">Code Block BBB</span> for<br>
+            the subPrimeFunc itself.
+        </button><br><br>
+        
+        
+        <button onclick="primeFunc(2)">
+            <b><u>Click Me:</u></b><br> 
+            To invoke a <span style="color:red;">primary</span> 
+            function which calls a <span style="color:red;">sub-primary</span>
+            function. The sub-primary<br> function calls a specific nested
+            function via a dot operator. The nested function<br> called is
+            called <span style="color:red;">response2</span>. 
+            The call looks like this in the code<br> 
+            <span style="color:red;">subPrimeFunc().response2()</span>. 
+            See <span style="color:red;">Code Block AAA</span>.
+             See <span style="color:red;">Code Block BBB</span> for<br>
+            the subPrimeFunc itself.
+        </button>
+        <br><br>
+        
+        <button onclick="primeFunc(3)">
+            <b><u>Click Me:</u></b><br> 
+            To invoke a <span style="color:red;">primary</span> 
+            function which calls a <span style="color:red;">sub-primary</span>
+            function. The<br> sub-primary function calls a specific nested
+            function via a dot operator.<br> The nested function called is
+            called <span style="color:red;">response3</span>.<br> 
+            The call looks like this in the code 
+            <span style="color:red;">subPrimeFunc().response3</span>.<br> 
+            <span style="color:red; font-size:30px;">BUT!</span>...Notice there 
+            is no <span style="color:red;">()</span> at the end of 
+            <span style="color:red;">response3</span>. In this case<br>response3 is 
+            just the name of a name/value pair. Thus the value is the<br>calling 
+            function. The calling function is called <span style="color:red;">
+                response3Function</span> and is<br>invoked with the 
+            <span style="color:red;">()</span> at the end. See 
+            <span style="color:red;">Code Block BBBa</span>
+            See <span style="color:red;">Code Block AAA</span>. 
+        </button>
+        <br><br>
+        
+        
+        <div id="showResponse">
+            <div id="subResponse" ></div>
+        </div>   
+        <br>
+        
+        <div style="width:700px">
+            <span style="color:red; font-size:30px;">An object observation:</span><br>
+            Take a look at <span style="color:red;">Code Block BBBb</span>. 
+            By inspection, the entire
+            <span style="color:red;">subPrimeFunc</span> is configured like an object
+            with <span style="color:red;">name:value</span> pairs. Look at the 
+            contents of the <span style="color:red;">return</span> statement and 
+            notice the open and close braces, and within the braces are the names:
+            response1, response2, and response3. And the corresponding values are the 
+            functions and response3's value is the invoked function "response3Function()".
+            Look how these name:values are called: 
+            <span style="color:red;">via the dot operator</span>. It all looks like 
+            an object to me. Yes I know functions are considered objects.<br>
+            <span style="color:blue; font-size:22px;"> But this 
+                is a great example of a function having a familiar object look.</span>
+        </div>    
+    
+<script>
+
+    // Code Block AAA
+    function primeFunc(response){
+        if(response === 1)
+            document.getElementById("subResponse").innerHTML = subPrimeFunc().response1();
+        if(response === 2)
+            document.getElementById("subResponse").innerHTML = subPrimeFunc().response2();
+        if(response === 3)
+            document.getElementById("subResponse").innerHTML = subPrimeFunc().response3;
+        
+        document.getElementById("subResponse").style.position = "relative";
+        document.getElementById("subResponse").style.top = "20px";
+    };
+
+ 
+
+    // Code Block BBB
+    subPrimeFunc = function(){
+ 
+        var response3Function = function(){ 
+                return "Nested function <span style=\"color:red; font-size:40px;\">response3</span> successfully called via the dot operator";
+            };
+        //Code Block BBBb    
+        return  {
+                    response1: function(){
+                        return "Nested function <span style=\"color:red; font-size:40px;\">response1</span> successfully called via the dot operator";
+                    },
+
+                    response2: function(){
+                        return "Nested function <span style=\"color:red; font-size:40px;\">response2</span> successfully called via the dot operator";
+                    },
+                    // Code Block BBBa
+                    response3: response3Function()
+                    
+                };
+    };
+
+</script>    
+</body>
+</html>
