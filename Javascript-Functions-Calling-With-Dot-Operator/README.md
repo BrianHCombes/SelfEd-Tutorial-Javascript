@@ -13,7 +13,7 @@ Run in Plunker | Citation / Note
 **Date:**           | 01/08/2017
 **Archive_Title:**  | SelfEd-Javascript-Functions-Calling-With-Dot-Operator
 **Objective:**      | Learning additional nuances of ways to call functions
-**Catalyst:**       | While working on: **SelfEd-Angular-Practice-ProjectA-HTTP-Service** and trying to fully understand placing a RESTful service into an Angular factory service I did som experimenting with calling functions. 
+**Catalyst:**       | While working on: [**SelfEd-Angular-Practice-ProjectA-HTTP-Service**](https://github.com/BrianHCombes/SelfEd-Tutorials-AngularJS/tree/master/SelfEd-Angular-Practice-ProjectA-HTTP-Service) and trying to fully understand placing a RESTful service into an Angular factory service I did som experimenting with calling functions. 
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
@@ -26,4 +26,12 @@ Run in Plunker | Citation / Note
 
 ### :arrow_down_small: **Learn Process:**
 
- 
+ I wanted to know where regular Javascript ends and AngularJS begins.
+    I suspected using the dot operator: see the part in the code that has
+    < subPrimeFunc().response2(); > in it is part of regular Javascript.
+    Look at the code to see how function(s) response1 and response2 are called
+    with the dor=t operator.
+    This syntax is part of regular Javascript but is strikingly similar to 
+    the syntax in AngularJS factory service methods. I encountered this
+    understanding while working on:
+                        < SelfEd-Angular-Practice-ProjectA-HTTP-Service > 
