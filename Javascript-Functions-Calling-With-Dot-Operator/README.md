@@ -20,18 +20,10 @@ Run in Plunker | Citation / Note
 ### :arrow_down_small: **Tutorial Links**
 **Citation / Note**   | **Links learned from....**                                                
 ----------------------|-----------------------
-                      | 
+                      | [**SelfEd-Angular-Practice-ProjectA-HTTP-Service**](https://github.com/BrianHCombes/SelfEd-Tutorials-AngularJS/tree/master/SelfEd-Angular-Practice-ProjectA-HTTP-Service) 
                       
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
 ### :arrow_down_small: **Learn Process:**
 
- I wanted to know where regular Javascript ends and AngularJS begins.
-    I suspected using the dot operator: see the part in the code that has
-    < subPrimeFunc().response2(); > in it is part of regular Javascript.
-    Look at the code to see how function(s) response1 and response2 are called
-    with the dor=t operator.
-    This syntax is part of regular Javascript but is strikingly similar to 
-    the syntax in AngularJS factory service methods. I encountered this
-    understanding while working on:
-                        < SelfEd-Angular-Practice-ProjectA-HTTP-Service > 
+I wanted to know where regular Javascript ends and AngularJS begins. I suspected using the dot operator: _see the part in the code that has **subPrimeFunc().response2()** in this SelfEd_ is part of regular Javascript. Look at the code to see how function(s) response1 and response2 are called with the dor=t operator. This syntax is part of regular Javascript but is strikingly similar to the syntax in AngularJS factory service methods. I encountered this understanding while working on: **SelfEd-Angular-Practice-ProjectA-HTTP-Service**
