@@ -2,9 +2,9 @@
 #**Javascript - JSON-Constructs**
 Run in Plunker | Citation / Note
 ----------------------------------------------------------------------------|--------------------------------------------------------
-[:small_blue_diamond:**SelfEd-JSON_Exp1.html** (:memo:See comments in this file for details)](https://plnkr.co/edit/lTWTA87SgLbInWgYNcHz?p=preview) | [Citation AAB] (https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)
-[:small_blue_diamond:**SelfEd-JSON_Exp2.html** (:memo:See comments in this file for details)](https://plnkr.co/edit/TdMZTCxHoNe4x07WFEMP?p=preview) | [Citation AAB] (https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)
-[:small_blue_diamond:**SelfEd-JSON_Exp3.html** (:memo:See comments in this file for details)](https://plnkr.co/edit/Iob3N0qgS9iGW2fiwTpA?p=preview) | [Citation AAB] (https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)
+[:small_blue_diamond:**SelfEd-JSON_Exp1.html** (:memo:See comments in this file for addtional tutorial details)](https://plnkr.co/edit/lTWTA87SgLbInWgYNcHz?p=preview) | [Citation AAB] (https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)
+[:small_blue_diamond:**SelfEd-JSON_Exp2.html** (:memo:See comments in this file for addtional tutorial details)](https://plnkr.co/edit/TdMZTCxHoNe4x07WFEMP?p=preview) | [Citation AAB] (https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)
+[:small_blue_diamond:**SelfEd-JSON_Exp3.html** (:memo:See comments in this file for addtional tutorial details)](https://plnkr.co/edit/Iob3N0qgS9iGW2fiwTpA?p=preview) | [Citation AAB] (https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript/blob/master/Cited-References.md)
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
