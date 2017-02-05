@@ -2,7 +2,7 @@
 #**Javascript - _Calling Functions With the Dot Operator_**
 Run in Plunker | Citation / Note
 ----------------------------------------------------------------------------|--------------------------------------------------------
-[:small_blue_diamond:**Dot-Operator-Calling-Of-Functions_Exp1.html**:computer:run program for instructional content](https://plnkr.co/edit/MYVNG5CNp6krT4uX4Cpd?p=preview) | 
+[:small_blue_diamond:**Dot-Operator-Calling-Of-Functions_Exp1.html** (:computer:run program for instructional content)](https://plnkr.co/edit/MYVNG5CNp6krT4uX4Cpd?p=preview) | 
 
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
