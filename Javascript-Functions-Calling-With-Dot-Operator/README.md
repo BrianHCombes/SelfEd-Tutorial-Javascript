@@ -26,7 +26,7 @@ Run in Plunker | Citation / Note
 
 ### :arrow_down_small: **Learn Process:**
 
-I wanted to know where regular Javascript ends and AngularJS begins. I suspected using the dot operator ( _see the part in the code that has **subPrimeFunc().response2()** in this SelfEd_) is part of regular Javascript. Look at the code to see how function(s) response1 and response2 are called with the dot operator. This syntax is part of regular Javascript but is strikingly similar to the syntax in AngularJS factory service methods. I encountered this understanding while working on: **SelfEd-Angular-Practice-ProjectA-HTTP-Service**
+I wanted to know where regular Javascript ends and AngularJS begins. I suspected using the dot operator ( [_see the part in the code that has **subPrimeFunc().response2()** in this SelfEd_](https://plnkr.co/edit/MYVNG5CNp6krT4uX4Cpd?p=preview) is part of regular Javascript. Look at the code to see how function(s) response1 and response2 are called with the dot operator. This syntax is part of regular Javascript but is strikingly similar to the syntax in AngularJS factory service methods. I encountered this understanding while working on: **SelfEd-Angular-Practice-ProjectA-HTTP-Service**
 
 While writing this SelfEd, I went back to my Angular project (looked around) and suddenly I have a deeper understanding of how the dot operator is used throughout Angular. In fact I now see more Javascript than Angular in my Angular project even though I consider my
 Angular project as **pure** Angular.
