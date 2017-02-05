@@ -20,7 +20,7 @@ Run in Plunker | Citation / Note
 ### :arrow_down_small: **Tutorial Links**
 **Citation / Note**   | **Links learned from....**                                                
 ----------------------|-----------------------
-                      | [**SelfEd-Angular-Practice-ProjectA-HTTP-Service**](https://github.com/BrianHCombes/SelfEd-Tutorials-AngularJS/tree/master/SelfEd-Angular-Practice-ProjectA-HTTP-Service) 
+I may have seen an example of a dot operator somewhere will working on my Angular Practice Project. It made me think about the role the dot operator plays in Angular.                   | [**SelfEd-Angular-Practice-ProjectA-HTTP-Service**](https://github.com/BrianHCombes/SelfEd-Tutorials-AngularJS/tree/master/SelfEd-Angular-Practice-ProjectA-HTTP-Service) 
                       
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
