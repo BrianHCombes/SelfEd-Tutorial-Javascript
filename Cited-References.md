@@ -4,7 +4,7 @@ Citation Ref     |Author                        |Date             |Title        
 -----------------|------------------------------|-----------------|---------------------------------------------|----------
 AAA              | Buecheler, Christopher       |                 |UNDERSTANDING JAVASCRIPT CALLBACKS           | http://cwbuecheler.com/web/tutorials/2013/javascript-callbacks/
 AAB              |TutorialsPoint                |                 |Node.js - RESTful API                        | https://www.tutorialspoint.com/nodejs/nodejs_restful_api.htm
-AAC              |                              |                 |                                             |
+AAC              |[Joel Hooks](http://joelhooks.com/about)|July 2013|The basics of using ui-router with AngularJS | http://joelhooks.com/blog/2013/07/22/the-basics-of-using-ui-router-with-angularjs/
 AAD              |                              |                 |                                             |
 AAE              |                              |                 |                                             |
 AAF              |                              |                 |                                             |
