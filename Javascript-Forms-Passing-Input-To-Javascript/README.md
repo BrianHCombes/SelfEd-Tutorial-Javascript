@@ -2,7 +2,7 @@
 #**Javascript - Passing Input Directly to Javascript**
 Run in Plunker | Citation / Note
 ----------------------------------------------------------------------------|--------------------------------------------------------
-[:small_blue_diamond:**passingInputToJS.html** (_ passingInputToJS_Exp1.html_)](https://plnkr.co/edit/qiKNyvVaR3WHlb1n9Ixk?p=preview) | 
+[:small_blue_diamond:**Passing Input To Javascript** _(passingInputToJS_Exp1.html)_](https://plnkr.co/edit/qiKNyvVaR3WHlb1n9Ixk?p=preview) | 
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
