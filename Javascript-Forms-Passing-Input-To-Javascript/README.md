@@ -1,5 +1,5 @@
 ### **_My 'SelfEd' Code Diaries_**
-#**Javascript - Passing Input Directly to Javascript**
+#**Javascript - Passing Form Input Directly to Javascript**
 Run in Plunker | Citation / Note
 ----------------------------------------------------------------------------|--------------------------------------------------------
 [:small_blue_diamond:**Passing Input To Javascript** _(passingInputToJS_Exp1.html)_](https://plnkr.co/edit/qiKNyvVaR3WHlb1n9Ixk?p=preview) | 
