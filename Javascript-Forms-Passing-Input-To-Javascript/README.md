@@ -32,5 +32,5 @@ http://stackoverflow.com/questions/7716848/how-to-pass-a-form-input-value-into-a
 which has numerous ways to do it. Run file: [:small_blue_diamond:**passingInputToJS.html**](https://plnkr.co/edit/qiKNyvVaR3WHlb1n9Ixk?p=preview) for the example I started with. There is certainly more to add to this SelfEd.
 
 02/09/2017   
-Added a drop down list to the mix. I must note that the **action attribute** in the form tag is not needed in this example. Certainly you need it when passing input to a server. The action attribute attaches the name values as parameters to the URL that is defined in the action attribute.
+Added a drop down list to the mix. I must note that the **action attribute** in the form tag is not needed in this example. Certainly you need it when passing input to a server. The action attribute attaches the name values as parameters to the URL that is defined in the action attribute. W3 schools explains this nicely at [Form Attributes](http://www.w3schools.com/html/html_forms.asp)
 
