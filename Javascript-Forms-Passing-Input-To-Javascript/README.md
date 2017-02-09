@@ -2,7 +2,7 @@
 #**Javascript - Passing Input Directly to Javascript**
 Run in Plunker | Citation / Note
 ----------------------------------------------------------------------------|--------------------------------------------------------
-[:small_blue_diamond:**passingInputToJS.html**](https://plnkr.co/edit/qiKNyvVaR3WHlb1n9Ixk?p=preview) | 
+[:small_blue_diamond:**passingInputToJS.html** (_ passingInputToJS_Exp1.html_)](https://plnkr.co/edit/qiKNyvVaR3WHlb1n9Ixk?p=preview) | 
 
 :heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign::heavy_minus_sign:
 
@@ -27,4 +27,10 @@ Run in Plunker | Citation / Note
 I had to probe around a bit but found:
 http://stackoverflow.com/questions/7716848/how-to-pass-a-form-input-value-into-a-javascript-function
 which has numerous ways to do it. Run file: [:small_blue_diamond:**passingInputToJS.html**](https://plnkr.co/edit/qiKNyvVaR3WHlb1n9Ixk?p=preview) for the example I started with. There is certainly more to add to this SelfEd.
+
+02/09/2017
+This File: passingInputToJS_Exp1.html
+Cloned and supplemented with a drop down list:
+http://www.w3schools.com/html/html_form_elements.asp
+http://www.w3schools.com/html/html_forms.asp
 
