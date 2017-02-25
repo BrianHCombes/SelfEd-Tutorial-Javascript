@@ -5,4 +5,7 @@ I'm developing a SelfEd about passing parameters between states and when reveiwi
 
 I found a nice explanation by [**Kevin Ennis who explains Protypal Inheritance**](https://medium.com/@kevincennis/prototypal-inheritance-781bccc97edb#.j1o7eenl4) and decided this is a worthy topic for a SelfEd.
 
-I am fondly reminded of the work I've done in JAVA with constructors, classes, instances, etc.
+I am fondly reminded of the work I've done in JAVA defining and buiding classes.
+
+Some places I looked at while working this:   
+http://stackoverflow.com/questions/6308178/what-is-the-main-difference-between-inheritance-and-polymorphism
