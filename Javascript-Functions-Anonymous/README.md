@@ -30,4 +30,18 @@ Had a brief moment where I needed to brush up on anonymous functions. Found this
  
 03/05/2017   
 In selling off a client's grow gear I used ng-repeat to display rows of images and captions. The data array that ng-repeat is accessing is an array of objects. The caption property is normally a string. But I replaced a couple of captions with self executing anonymous functions. The functions have return statements and **VOILA!** the return values are displayed as the caption property.
-See **Project-TTD-Grow-Gear-Sale** project where I'm deploying this with the intent of accessing outside data.
+See **Project-TTD-Grow-Gear-Sale** project where I'm deploying this with the intent of accessing outside data. Here's a snip of the example code from the project
+
+    imageCtrlSelf.iList = [ {"image":"GFS-Images/IMAG2174.jpg", "label":"GFS-Images/IMAG2181.jpg", 
+                                        "caption": (function(){return "This comment is from a function call"})()}, 
+                                    {"image":"GFS-Images/IMAG2175.jpg", "label":"GFS-Images/IMAG2179.jpg", 
+                                        "caption":" Add comments here - Add comments here - Add comments here"},
+                                    {"image":"GFS-Images/IMAG2176.jpg", "label":"GFS-Images/IMAG2180.jpg", 
+                                        "caption":" Add comments here - Add comments here - Add comments here"},
+                                    {"image":"GFS-Images/IMAG2177.jpg", "label":"GFS-Images/IMAG2180.jpg", 
+                                        "caption":" Add comments here - Add comments here - Add comments here"},
+                                    {"image":"GFS-Images/IMAG2178.jpg", "label":"GFS-Images/IMAG2183.jpg", 
+                                        "caption":  (function(){return 25;})()} 
+
+
+
