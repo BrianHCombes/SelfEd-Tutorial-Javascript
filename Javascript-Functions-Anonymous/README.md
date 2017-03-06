@@ -28,3 +28,6 @@ No SelfEd File Yet  | See **Tutorial Links** Section for a great Tutorial From N
 
 Had a brief moment where I needed to brush up on anonymous functions. Found this great Noah Stokes tutorial (listed in Tutorial Links). He gets reasonably complex at the end of his tutorial. I plan to write some SelfEd code based on his example (hopefully soon). For now, his tutorial is all that's needed.
  
+03/05/2017
+In selling off a client's grow gear I used ng-repeat to display rows of images and captions. The data array that ng-repeat is accessing is an array of objects. The caption property is normally a string. But I replaced a couple of captions with self executing anonymous functions. The functions have return statements and **VOILA!** the return values are displayed as the caption property.
+See **Project-TTD-Grow-Gear-Sale** project where I'm deploying this with the intent of accessing outside data.
