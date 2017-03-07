@@ -41,7 +41,9 @@ See **Project-TTD-Grow-Gear-Sale** project where I'm deploying this with the int
                                     {"image":"GFS-Images/IMAG2177.jpg", "label":"GFS-Images/IMAG2180.jpg", 
                                         "caption":" Add comments here - Add comments here - Add comments here"},
                                     {"image":"GFS-Images/IMAG2178.jpg", "label":"GFS-Images/IMAG2183.jpg", 
-                                        "caption":  (function(){return 25;})()} 
-
-
+                                        "caption":  (function(){return 25;})()}    
+From a javascript block you need to assign a self executing function to a value for it to work properly. In this case the function is called "selfRunfunc" and will execute on load.
+    var selfRunfunc = function(){
+        alert("This function is self executing");
+    }();
 
