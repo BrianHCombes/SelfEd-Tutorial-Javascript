@@ -1,4 +1,4 @@
-## :red_circle:**03/07/2017 - Need to update and do an actual AJAX asynchronous call. This link seems a great explainer**   
+:red_circle:**03/07/2017 - Need to update and do an actual AJAX asynchronous call. This link seems a great explainer**   
 
 ### **_My 'SelfEd' Code Diaries_**
 #**Javascript - Asynchronous Function Calls**
