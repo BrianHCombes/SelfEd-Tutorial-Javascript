@@ -1,4 +1,5 @@
 :red_circle:**03/07/2017 - Need to update and do an actual AJAX asynchronous call. This link seems a great explainer**   
+https://www.pluralsight.com/guides/front-end-javascript/introduction-to-asynchronous-javascript?hearted=1
 
 ### **_My 'SelfEd' Code Diaries_**
 #**Javascript - Asynchronous Function Calls**
