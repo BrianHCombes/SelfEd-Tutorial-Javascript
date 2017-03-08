@@ -1,3 +1,7 @@
+:red_circle:**03/08/2017 - I have added new JSON constructs (namely JSON formatted arrays) to this SelfEd. Upload the changes from the SelfEd on my laptop and publlish ASAP**
+
+
+
 ### **_My 'SelfEd' Code Diaries_**
 #**Javascript - JSON-Constructs**
 Run in Plunker | Citation / Note
