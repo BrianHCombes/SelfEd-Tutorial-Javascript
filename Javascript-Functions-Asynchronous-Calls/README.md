@@ -1,4 +1,4 @@
-:red_circle:**03/08/2017 - Major understanding manifested last night. All I can say is DUH!! Refer to ReadMe.txt and callback_Exp4 in this SelfEd on laptop.
+:red_circle:**03/08/2017 - Major understanding manifested last night. All I can say is DUH!! Refer to ReadMe.txt and callback_Exp4 in this SelfEd on laptop.**
 
 :red_circle:**03/07/2017 - Need to update and do an actual AJAX asynchronous call. This link seems a great explainer**   
 https://www.pluralsight.com/guides/front-end-javascript/introduction-to-asynchronous-javascript?hearted=1
