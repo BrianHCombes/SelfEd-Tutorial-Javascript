@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div>
+
+        <a href="SideTestReceive.html?5">Send Parameter</a>
+        <button onclick="sendParam(3)">Send Parameter of three</button>
+        <div id="fromJS"></div>
+
+    </div>
+    
+<script>
+
+    function sendParam(param){
+        
+       
+        var linkVar = "SideTestReceive.html?" + param;
+        
+        document.getElementById("fromJS").innerHTML = linkVar;
+        
+        window.location = linkVar;
+        //window.location = "http://www.tarptiedown.com";
+    }
+
+// https://www.xul.fr/javascript/parameters.php?submit=Return
+// http://stackoverflow.com/questions/4426184/how-to-go-from-one-page-to-another-page-using-javascript
+
+
+
+</script>    
+</body>
+</html>
